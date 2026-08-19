@@ -1,0 +1,12 @@
+{
+  "run_name": "E074_fosmix_only_mild",
+  "method": "Mild FOSMix-lite only beta=0.02 p=0.35",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.4835007014656736,
+  "best_dg_overall_miou": 0.532848773536697,
+  "best_dg_urban_miou": 0.5858534211420707,
+  "best_dg_rural_miou": 0.4341526293946502,
+  "best_dg_worst_miou": 0.4341526293946502,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.532848773536697
+}

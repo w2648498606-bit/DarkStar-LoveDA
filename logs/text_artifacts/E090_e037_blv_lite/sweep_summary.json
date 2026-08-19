@@ -1,0 +1,12 @@
+{
+  "run_name": "E090_e037_blv_lite",
+  "method": "E037 + BLV-lite class-frequency-dependent training-time logit variation",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.5003335483710816,
+  "best_dg_overall_miou": 0.5452430200533512,
+  "best_dg_urban_miou": 0.5886837258354788,
+  "best_dg_rural_miou": 0.455424076688812,
+  "best_dg_worst_miou": 0.455424076688812,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.5452430200533512
+}

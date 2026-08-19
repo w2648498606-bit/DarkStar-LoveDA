@@ -1,0 +1,23 @@
+{
+  "checkpoint": "outputs/experiments/E009_mit_b2_upernet_10ep/checkpoints/best_miou.pth",
+  "source_model": "mit_b2_upernet",
+  "loaded_base_tensors": 429,
+  "new_variant_tensors": 13,
+  "new_keys": [
+    "adapter.gate.0.weight",
+    "adapter.gate.2.bias",
+    "adapter.gate.2.weight",
+    "adapter.high_path.0.weight",
+    "adapter.high_path.1.weight",
+    "adapter.high_path.2.bias",
+    "adapter.high_path.2.weight",
+    "adapter.low_path.0.weight",
+    "adapter.low_path.1.weight",
+    "adapter.low_path.2.bias",
+    "adapter.low_path.2.weight",
+    "adapter.out.bias",
+    "adapter.out.weight"
+  ],
+  "source_epoch": 6,
+  "source_best_miou": 0.524680114160583
+}

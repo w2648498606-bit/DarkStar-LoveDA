@@ -1,0 +1,12 @@
+{
+  "run_name": "E107_e090lite_global_local_progressive",
+  "method": "E090-lite + MiT-B2 + global-local progressive fusion decoder",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.4964404019433081,
+  "best_dg_overall_miou": 0.5415317439252354,
+  "best_dg_urban_miou": 0.5891790401372987,
+  "best_dg_rural_miou": 0.4513490599613808,
+  "best_dg_worst_miou": 0.4513490599613808,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.5415317439252354
+}

@@ -1,0 +1,12 @@
+{
+  "run_name": "E106_e090lite_progressive_fusion",
+  "method": "E090-lite + MiT-B2 + progressive top-down fusion decoder",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.48771241981219227,
+  "best_dg_overall_miou": 0.5343947519651858,
+  "best_dg_urban_miou": 0.5839598981330693,
+  "best_dg_rural_miou": 0.44103008765919866,
+  "best_dg_worst_miou": 0.44103008765919866,
+  "best_overall_epoch": 4,
+  "best_overall_miou": 0.5356435436077244
+}

@@ -1,0 +1,38 @@
+model     : mit_b2_cnnstem_upernet
+checkpoint: outputs/experiments/E014_mit_b2_cnnstem_upernet_10ep/checkpoints/best_miou.pth
+split     : Val
+TTA       : False
+loss      : 1.1049
+
+[overall]
+mIoU      : 0.520200
+pixel_acc : 0.707556
+  background   IoU=0.555117
+  building     IoU=0.637753
+  road         IoU=0.541288
+  water        IoU=0.693418
+  barren       IoU=0.309278
+  forest       IoU=0.365200
+  agriculture  IoU=0.539346
+
+[Rural]
+mIoU      : 0.414531
+pixel_acc : 0.699170
+  background   IoU=0.588916
+  building     IoU=0.565946
+  road         IoU=0.343707
+  water        IoU=0.680759
+  barren       IoU=0.177885
+  forest       IoU=0.035780
+  agriculture  IoU=0.508726
+
+[Urban]
+mIoU      : 0.577012
+pixel_acc : 0.720116
+  background   IoU=0.467966
+  building     IoU=0.666086
+  road         IoU=0.631981
+  water        IoU=0.711952
+  barren       IoU=0.426878
+  forest       IoU=0.544284
+  agriculture  IoU=0.589937

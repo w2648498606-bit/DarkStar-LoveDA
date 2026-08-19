@@ -1,0 +1,18 @@
+{
+  "source_checkpoint": "outputs/experiments/E090_e037_blv_lite/checkpoints/best_miou.pth",
+  "run_name": "E098_e090lite_trainval_final",
+  "train_samples": 2522,
+  "val_samples_added_to_training": 1669,
+  "total_training_samples": 4191,
+  "final_epoch": 3,
+  "final_checkpoint": "outputs/experiments/E098_e090lite_trainval_final/checkpoints/final_trainval_epoch3.pth",
+  "checkpoint_selection": "fixed final epoch; not Val best",
+  "logit_perturbation": {
+    "method": "E090-lite exact",
+    "tau": 0.5,
+    "sample_masks": 128,
+    "frequency_pool": "Train+Val combined",
+    "inference": "clean logits"
+  },
+  "full_data_recipe": "E048 proven recipe: 3ep, lr=2e-5, batch8, crop512, AdamW, cosine, MS+rare crop, CE+0.5 Lovasz"
+}

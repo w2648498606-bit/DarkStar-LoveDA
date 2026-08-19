@@ -1,0 +1,169 @@
+Rural Val images = 992
+
+========================================================================================
+E033_multiscale_ce
+outputs/experiments/E033_v72_multiscale_ce/checkpoints/best_miou.pth
+========================================================================================
+
+[Rural overall]
+mIoU             = 0.418661
+pixel_acc        = 0.699999
+forest IoU       = 0.016114
+forest precision = 0.615044
+forest recall    = 0.016278
+GT forest pixels = 51,420,183
+PD forest pixels = 1,360,890
+TP forest pixels = 837,007
+
+True forest -> predicted class:
+  background  :  93.011%
+  building    :   0.023%
+  road        :   0.038%
+  water       :   0.558%
+  barren      :   0.062%
+  forest      :   1.628%
+  agriculture :   4.680%
+
+False-positive forest originates from:
+  background  :  70.087%
+  building    :   0.009%
+  road        :   1.440%
+  water       :  18.754%
+  barren      :   7.683%
+  agriculture :   2.027%
+
+Forest performance by GT forest coverage:
+band        images        IoU  precision     recall
+zero           388   0.000000   0.000000        nan
+0-1%            97   0.019149   0.272434   0.020181
+1-5%           226   0.022806   0.716244   0.023014
+5-15%          186   0.020225   0.826302   0.020312
+15-30%          69   0.019029   0.936034   0.019054
+>30%            26   0.003552   1.000000   0.003552
+
+========================================================================================
+E035_multiscale_rare_ce
+outputs/experiments/E035_v72_multiscale_rare_ce/checkpoints/best_miou.pth
+========================================================================================
+
+[Rural overall]
+mIoU             = 0.435008
+pixel_acc        = 0.711028
+forest IoU       = 0.056864
+forest precision = 0.693238
+forest recall    = 0.058332
+GT forest pixels = 51,420,183
+PD forest pixels = 4,326,695
+TP forest pixels = 2,999,430
+
+True forest -> predicted class:
+  background  :  88.175%
+  building    :   0.015%
+  road        :   0.034%
+  water       :   0.511%
+  barren      :   0.154%
+  forest      :   5.833%
+  agriculture :   5.278%
+
+False-positive forest originates from:
+  background  :  78.378%
+  building    :   0.009%
+  road        :   0.802%
+  water       :  16.893%
+  barren      :   3.642%
+  agriculture :   0.276%
+
+Forest performance by GT forest coverage:
+band        images        IoU  precision     recall
+zero           388   0.000000   0.000000        nan
+0-1%            97   0.018661   0.774969   0.018763
+1-5%           226   0.020032   0.524463   0.020403
+5-15%          186   0.030000   0.849864   0.030160
+15-30%          69   0.049440   0.847298   0.049885
+>30%            26   0.128159   0.924554   0.129514
+
+========================================================================================
+E037_multiscale_rare_ce_lovasz
+outputs/experiments/E037_v72_multiscale_rare_ce_lovasz/checkpoints/best_miou.pth
+========================================================================================
+
+[Rural overall]
+mIoU             = 0.441961
+pixel_acc        = 0.713296
+forest IoU       = 0.054689
+forest precision = 0.716407
+forest recall    = 0.055899
+GT forest pixels = 51,420,183
+PD forest pixels = 4,012,148
+TP forest pixels = 2,874,332
+
+True forest -> predicted class:
+  background  :  87.805%
+  building    :   0.018%
+  road        :   0.037%
+  water       :   0.554%
+  barren      :   0.253%
+  forest      :   5.590%
+  agriculture :   5.742%
+
+False-positive forest originates from:
+  background  :  80.310%
+  building    :   0.012%
+  road        :   0.836%
+  water       :  15.062%
+  barren      :   3.456%
+  agriculture :   0.324%
+
+Forest performance by GT forest coverage:
+band        images        IoU  precision     recall
+zero           388   0.000000   0.000000        nan
+0-1%            97   0.018296   0.794497   0.018383
+1-5%           226   0.020054   0.544685   0.020396
+5-15%          186   0.029405   0.852843   0.029555
+15-30%          69   0.046225   0.845529   0.046619
+>30%            26   0.123002   0.927602   0.124194
+
+========================================================================================
+E038_rural_mixedforest
+outputs/experiments/E038_v73_rural_mixedforest/checkpoints/best_miou.pth
+========================================================================================
+
+[Rural overall]
+mIoU             = 0.436938
+pixel_acc        = 0.714450
+forest IoU       = 0.031775
+forest precision = 0.522257
+forest recall    = 0.032726
+GT forest pixels = 51,420,183
+PD forest pixels = 3,222,143
+TP forest pixels = 1,682,786
+
+True forest -> predicted class:
+  background  :  90.354%
+  building    :   0.016%
+  road        :   0.034%
+  water       :   0.578%
+  barren      :   0.117%
+  forest      :   3.273%
+  agriculture :   5.629%
+
+False-positive forest originates from:
+  background  :  80.254%
+  building    :   0.001%
+  road        :   0.446%
+  water       :  16.525%
+  barren      :   2.553%
+  agriculture :   0.221%
+
+Forest performance by GT forest coverage:
+band        images        IoU  precision     recall
+zero           388   0.000000   0.000000        nan
+0-1%            97   0.019424   0.846096   0.019493
+1-5%           226   0.016807   0.690404   0.016934
+5-15%          186   0.023967   0.843491   0.024074
+15-30%          69   0.024288   0.878785   0.024369
+>30%            26   0.063541   0.936024   0.063819
+
+Saved: outputs/diagnostics/v73_rural_forest_per_image.csv
+
+V7.3 rural forest comparison finished.

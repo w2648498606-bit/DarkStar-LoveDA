@@ -1,0 +1,32 @@
+{
+  "checkpoint": "outputs/experiments/E009_mit_b2_upernet_10ep/checkpoints/best_miou.pth",
+  "source_model": "mit_b2_upernet",
+  "loaded_base_tensors": 429,
+  "new_variant_tensors": 22,
+  "new_keys": [
+    "adapter.branches.0.0.weight",
+    "adapter.branches.0.1.bias",
+    "adapter.branches.0.1.weight",
+    "adapter.branches.1.0.weight",
+    "adapter.branches.1.1.bias",
+    "adapter.branches.1.1.weight",
+    "adapter.branches.2.0.weight",
+    "adapter.branches.2.1.bias",
+    "adapter.branches.2.1.weight",
+    "adapter.branches.3.0.weight",
+    "adapter.branches.3.1.bias",
+    "adapter.branches.3.1.weight",
+    "adapter.gate.bias",
+    "adapter.gate.weight",
+    "adapter.mix.0.weight",
+    "adapter.mix.1.bias",
+    "adapter.mix.1.weight",
+    "adapter.out.bias",
+    "adapter.out.weight",
+    "adapter.pre.0.weight",
+    "adapter.pre.1.bias",
+    "adapter.pre.1.weight"
+  ],
+  "source_epoch": 6,
+  "source_best_miou": 0.524680114160583
+}

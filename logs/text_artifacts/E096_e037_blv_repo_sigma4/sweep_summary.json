@@ -1,0 +1,12 @@
+{
+  "run_name": "E096_e037_blv_repo_sigma4",
+  "method": "E037 + faithful BLV | official repo fully-supervised config sigma=4",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.4958499092653088,
+  "best_dg_overall_miou": 0.5418619264032998,
+  "best_dg_urban_miou": 0.5875962655104059,
+  "best_dg_rural_miou": 0.4498378921273179,
+  "best_dg_worst_miou": 0.4498378921273179,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.5418619264032998
+}

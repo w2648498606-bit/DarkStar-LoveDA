@@ -1,0 +1,24 @@
+{
+  "training_split": "Val only",
+  "training_samples": 1669,
+  "sample_masks": 128,
+  "tau": 0.5,
+  "class_frequency": {
+    "background": 0.38248668423197874,
+    "building": 0.06261817192789333,
+    "road": 0.0402078307006188,
+    "water": 0.11161183128789598,
+    "barren": 0.04245034210258709,
+    "forest": 0.0864834098361053,
+    "agriculture": 0.2741417299129208
+  },
+  "noise_scale": {
+    "background": 0.0,
+    "building": 0.8033439517021179,
+    "road": 1.0,
+    "water": 0.5467678308486938,
+    "barren": 0.9759067893028259,
+    "forest": 0.660001814365387,
+    "agriculture": 0.14784865081310272
+  }
+}

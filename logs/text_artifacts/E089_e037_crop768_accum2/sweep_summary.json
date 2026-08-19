@@ -1,0 +1,12 @@
+{
+  "run_name": "E089_e037_crop768_accum2",
+  "method": "E037 + 768 crop + batch4 gradient accumulation2 (effective batch8)",
+  "best_dg_epoch": 4,
+  "best_dg_score": 0.49058191705710164,
+  "best_dg_overall_miou": 0.5372834969329644,
+  "best_dg_urban_miou": 0.5746926631314374,
+  "best_dg_rural_miou": 0.4438803371812388,
+  "best_dg_worst_miou": 0.4438803371812388,
+  "best_overall_epoch": 4,
+  "best_overall_miou": 0.5372834969329644
+}

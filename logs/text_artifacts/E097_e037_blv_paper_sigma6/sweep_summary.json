@@ -1,0 +1,12 @@
+{
+  "run_name": "E097_e037_blv_paper_sigma6",
+  "method": "E037 + faithful BLV | paper/supplement sigma=6",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.4947287474663239,
+  "best_dg_overall_miou": 0.5408562457624831,
+  "best_dg_urban_miou": 0.5870014603466693,
+  "best_dg_rural_miou": 0.4486012491701646,
+  "best_dg_worst_miou": 0.4486012491701646,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.5408562457624831
+}

@@ -1,0 +1,31 @@
+====================================================================================
+E111 PRECHECK
+====================================================================================
+============================================================================
+E111 TRAINING DATA
+Train samples : 2522
+Val in Train  : NO
+Test in Train : NO
+============================================================================
+============================================================================
+E111 VALIDATION DISABLED
+Original Val metadata found : 1669
+Val samples exposed to loader: 0
+Val forward passes           : 0
+============================================================================
+Train samples          : 2522 PASS
+Val samples exposed    : 0 PASS
+Val model forward      : HARD SKIP PASS
+E090 tau               : 0.50 PASS
+E090 sample masks      : 128 PASS
+E090 rarity scales     : [0.0, 0.5606, 0.9259, 0.7594, 1.0, 0.3873, 0.2833]
+MiT-B2+UPerNet params  : 33.12M
+model output            : PASS (1, 7, 128, 128)
+epochs                  : 100 PASS
+scheduler               : inherited E037 cosine over target epochs
+checkpoint selection    : NONE
+final Test checkpoint   : epoch100 last.pth ONLY
+Hidden Test before ep100: NONE
+====================================================================================
+E111 VERIFY PASS
+====================================================================================

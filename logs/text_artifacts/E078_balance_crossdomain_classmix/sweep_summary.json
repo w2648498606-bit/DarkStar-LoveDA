@@ -1,0 +1,12 @@
+{
+  "run_name": "E078_balance_crossdomain_classmix",
+  "method": "Domain balance + supervised cross-domain ClassMix [interrupted after epoch9]",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.4763812320303954,
+  "best_dg_overall_miou": 0.5232202837116582,
+  "best_dg_urban_miou": 0.5731130115868007,
+  "best_dg_rural_miou": 0.4295421803491326,
+  "best_dg_worst_miou": 0.4295421803491326,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.5232202837116582
+}

@@ -1,0 +1,47 @@
+{
+  "num_masks": 2522,
+  "raw_ignore_pixels": 99632059,
+  "valid_pixels": 2544876613,
+  "class_names": [
+    "background",
+    "building",
+    "road",
+    "water",
+    "barren",
+    "forest",
+    "agriculture"
+  ],
+  "class_pixel_counts": {
+    "background": 910708330,
+    "building": 281493525,
+    "road": 134119839,
+    "water": 162729743,
+    "barren": 132748857,
+    "forest": 409074984,
+    "agriculture": 514001335
+  },
+  "class_frequencies": {
+    "background": 0.3578595226769841,
+    "building": 0.11061185582123938,
+    "road": 0.05270190244779463,
+    "water": 0.06394406006512347,
+    "barren": 0.05216318006219974,
+    "forest": 0.1607445256521755,
+    "agriculture": 0.20197495327448317
+  },
+  "blv_coefficients": {
+    "background": 0.3479455141327422,
+    "building": 0.7454947199791422,
+    "road": 0.9965210447536994,
+    "water": 0.9310512473633045,
+    "barren": 1.0,
+    "forest": 0.6189315172420902,
+    "agriculture": 0.5416209400222537
+  },
+  "formula": "c_k=log(sum(q)/q_k); coeff=c_k/max(c)",
+  "raw_label_mapping": "raw0->ignore255; raw1..7->train0..6",
+  "sigma": 6.0,
+  "lovasz_weight": 0.5,
+  "blv_scope": "CE logits only",
+  "validation_inference": "clean logits"
+}

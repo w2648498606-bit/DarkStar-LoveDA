@@ -1,0 +1,43 @@
+{
+  "final_experiment": "E090",
+  "policy": {
+    "source": "final E090 code path only",
+    "histories": "all available packaged experiment history.csv files",
+    "raw_logs": "all available packaged raw .log files",
+    "text_artifacts": "compact experiment txt/csv/json metadata",
+    "weights_data_predictions": "excluded"
+  },
+  "source_files_kept": [
+    "datasets/loveda.py",
+    "datasets/loveda_hrda.py",
+    "dg_sweep_common.py",
+    "e037_next_common.py",
+    "losses.py",
+    "models/__init__.py",
+    "models/deeplabv3_resnet50.py",
+    "models/fcn_resnet18.py",
+    "models/mit_b2_advanced.py",
+    "models/mit_b2_forest_rescue.py",
+    "models/mit_b2_hierarchical.py",
+    "models/mit_b2_hrda_daformer.py",
+    "models/mit_b2_hrda_lite.py",
+    "models/mit_b2_hybrids.py",
+    "models/mit_b2_structures.py",
+    "models/mit_b2_v71_literature.py",
+    "models/mit_b2_v7_ablation.py",
+    "models/segformer.py",
+    "models/segformer_bgaux.py",
+    "predict_e090_lite_direct_test.py",
+    "train.py",
+    "train_e090.py",
+    "utils/common.py",
+    "utils/metrics.py",
+    "utils/repro.py"
+  ],
+  "counts": {
+    "source_files": 25,
+    "history_files": 70,
+    "raw_log_files": 70,
+    "text_artifact_files": 172
+  }
+}

@@ -1,0 +1,38 @@
+model     : mit_b2_adaptive_rf_upernet
+checkpoint: outputs/experiments/E018_mit_b2_adaptive_rf_upernet_10ep/checkpoints/best_miou.pth
+split     : Val
+TTA       : False
+loss      : 1.1954
+
+[overall]
+mIoU      : 0.515269
+pixel_acc : 0.699323
+  background   IoU=0.543949
+  building     IoU=0.632841
+  road         IoU=0.553441
+  water        IoU=0.711506
+  barren       IoU=0.265442
+  forest       IoU=0.390267
+  agriculture  IoU=0.509437
+
+[Rural]
+mIoU      : 0.411722
+pixel_acc : 0.695926
+  background   IoU=0.582528
+  building     IoU=0.543240
+  road         IoU=0.368790
+  water        IoU=0.711610
+  barren       IoU=0.118980
+  forest       IoU=0.064221
+  agriculture  IoU=0.492685
+
+[Urban]
+mIoU      : 0.565756
+pixel_acc : 0.704410
+  background   IoU=0.450260
+  building     IoU=0.668332
+  road         IoU=0.636249
+  water        IoU=0.711346
+  barren       IoU=0.398078
+  forest       IoU=0.557990
+  agriculture  IoU=0.538039

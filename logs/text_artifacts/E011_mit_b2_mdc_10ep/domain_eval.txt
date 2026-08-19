@@ -1,0 +1,38 @@
+model     : mit_b2_mdc
+checkpoint: outputs/experiments/E011_mit_b2_mdc_10ep/checkpoints/best_miou.pth
+split     : Val
+TTA       : False
+loss      : 1.3614
+
+[overall]
+mIoU      : 0.510217
+pixel_acc : 0.702449
+  background   IoU=0.546343
+  building     IoU=0.610767
+  road         IoU=0.556762
+  water        IoU=0.710102
+  barren       IoU=0.246794
+  forest       IoU=0.366262
+  agriculture  IoU=0.534494
+
+[Rural]
+mIoU      : 0.391593
+pixel_acc : 0.694460
+  background   IoU=0.582991
+  building     IoU=0.450178
+  road         IoU=0.375796
+  water        IoU=0.693637
+  barren       IoU=0.097838
+  forest       IoU=0.030832
+  agriculture  IoU=0.509876
+
+[Urban]
+mIoU      : 0.573311
+pixel_acc : 0.714415
+  background   IoU=0.457033
+  building     IoU=0.673417
+  road         IoU=0.637049
+  water        IoU=0.734807
+  barren       IoU=0.382495
+  forest       IoU=0.552032
+  agriculture  IoU=0.576343

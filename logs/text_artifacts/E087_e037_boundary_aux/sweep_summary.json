@@ -1,0 +1,12 @@
+{
+  "run_name": "E087_e037_boundary_aux",
+  "method": "E037 + training-only semantic boundary auxiliary loss",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.4900612624190466,
+  "best_dg_overall_miou": 0.5366284220061232,
+  "best_dg_urban_miou": 0.5826604917131573,
+  "best_dg_rural_miou": 0.44349410283197,
+  "best_dg_worst_miou": 0.44349410283197,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.5366284220061232
+}

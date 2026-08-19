@@ -1,0 +1,12 @@
+{
+  "run_name": "E084_mixstyle_semantic_consistency",
+  "method": "MixStyle + semantic KL consistency",
+  "best_dg_epoch": 6,
+  "best_dg_score": 0.4819631904381051,
+  "best_dg_overall_miou": 0.5299910329673275,
+  "best_dg_urban_miou": 0.5746561718159212,
+  "best_dg_rural_miou": 0.43393534790888266,
+  "best_dg_worst_miou": 0.43393534790888266,
+  "best_overall_epoch": 6,
+  "best_overall_miou": 0.5299910329673275
+}

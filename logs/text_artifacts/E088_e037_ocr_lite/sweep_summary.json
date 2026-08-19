@@ -1,0 +1,12 @@
+{
+  "run_name": "E088_e037_ocr_lite",
+  "method": "E037 + zero-init OCR-lite object context refiner",
+  "best_dg_epoch": 2,
+  "best_dg_score": 0.4860430271300199,
+  "best_dg_overall_miou": 0.5281541426712801,
+  "best_dg_urban_miou": 0.5627844320355856,
+  "best_dg_rural_miou": 0.44393191158875966,
+  "best_dg_worst_miou": 0.44393191158875966,
+  "best_overall_epoch": 4,
+  "best_overall_miou": 0.5332886503745926
+}

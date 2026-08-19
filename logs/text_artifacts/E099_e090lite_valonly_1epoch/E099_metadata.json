@@ -1,0 +1,11 @@
+{
+  "source": "outputs/experiments/E090_e037_blv_lite/checkpoints/best_miou.pth",
+  "training_data": "LoveDA Val only",
+  "training_samples": 1669,
+  "epochs": 1,
+  "lr": 2e-05,
+  "tau": 0.5,
+  "validation_inference": false,
+  "selection": "fixed last epoch",
+  "final_checkpoint": "outputs/experiments/E099_e090lite_valonly_1epoch/checkpoints/final_val1_epoch1.pth"
+}

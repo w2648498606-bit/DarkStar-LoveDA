@@ -1,0 +1,23 @@
+{
+  "num_training_samples": 4191,
+  "sample_masks": 128,
+  "tau": 0.5,
+  "class_frequency": {
+    "background": 0.35114409514340406,
+    "building": 0.0959539904530614,
+    "road": 0.04798908719323243,
+    "water": 0.09039928293757625,
+    "barren": 0.05354573034147653,
+    "forest": 0.11696632454982461,
+    "agriculture": 0.2440014893814247
+  },
+  "noise_scale": {
+    "background": 0.0,
+    "building": 0.6518504619598389,
+    "road": 1.0,
+    "water": 0.6818131804466248,
+    "barren": 0.9449496865272522,
+    "forest": 0.5523554682731628,
+    "agriculture": 0.18290530145168304
+  }
+}

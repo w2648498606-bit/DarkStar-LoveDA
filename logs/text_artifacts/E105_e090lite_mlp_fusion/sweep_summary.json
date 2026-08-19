@@ -1,0 +1,12 @@
+{
+  "run_name": "E105_e090lite_mlp_fusion",
+  "method": "E090-lite + MiT-B2 + lightweight MLP fusion decoder",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.48932058233417086,
+  "best_dg_overall_miou": 0.5359242209463794,
+  "best_dg_urban_miou": 0.5851122618394167,
+  "best_dg_rural_miou": 0.4427169437219624,
+  "best_dg_worst_miou": 0.4427169437219624,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.5359242209463794
+}

@@ -1,0 +1,12 @@
+{
+  "run_name": "E076_mixstyle_only",
+  "method": "Decoder-feature MixStyle only",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.4973308059537649,
+  "best_dg_overall_miou": 0.5436200702334743,
+  "best_dg_urban_miou": 0.588895409680384,
+  "best_dg_rural_miou": 0.4510415416740556,
+  "best_dg_worst_miou": 0.4510415416740556,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.5436200702334743
+}

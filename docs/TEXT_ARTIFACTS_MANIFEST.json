@@ -1,0 +1,862 @@
+[
+  {
+    "source": "outputs/experiments/E005_segformer_b1_3ep/config.json",
+    "copied": true,
+    "size_bytes": 586
+  },
+  {
+    "source": "outputs/experiments/E006_segformer_b2_3ep/config.json",
+    "copied": true,
+    "size_bytes": 586
+  },
+  {
+    "source": "outputs/experiments/E007_segformer_b2_20ep/config.json",
+    "copied": true,
+    "size_bytes": 588
+  },
+  {
+    "source": "outputs/experiments/E008_segformer_b2_bgaux/config.json",
+    "copied": true,
+    "size_bytes": 892
+  },
+  {
+    "source": "outputs/experiments/E009_mit_b2_upernet_10ep/config.json",
+    "copied": true,
+    "size_bytes": 971
+  },
+  {
+    "source": "outputs/experiments/E009_mit_b2_upernet_10ep/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 906
+  },
+  {
+    "source": "outputs/experiments/E010_mit_b2_ocr_fpn_10ep/config.json",
+    "copied": true,
+    "size_bytes": 971
+  },
+  {
+    "source": "outputs/experiments/E010_mit_b2_ocr_fpn_10ep/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 906
+  },
+  {
+    "source": "outputs/experiments/E011_mit_b2_mdc_10ep/config.json",
+    "copied": true,
+    "size_bytes": 963
+  },
+  {
+    "source": "outputs/experiments/E011_mit_b2_mdc_10ep/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 898
+  },
+  {
+    "source": "outputs/experiments/E012_mit_b2_uper_ocr_10ep/config.json",
+    "copied": true,
+    "size_bytes": 973
+  },
+  {
+    "source": "outputs/experiments/E012_mit_b2_uper_ocr_10ep/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 908
+  },
+  {
+    "source": "outputs/experiments/E013_cnnpre_mit_b2_upernet_10ep/config.json",
+    "copied": true,
+    "size_bytes": 985
+  },
+  {
+    "source": "outputs/experiments/E013_cnnpre_mit_b2_upernet_10ep/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 920
+  },
+  {
+    "source": "outputs/experiments/E014_mit_b2_cnnstem_upernet_10ep/config.json",
+    "copied": true,
+    "size_bytes": 987
+  },
+  {
+    "source": "outputs/experiments/E014_mit_b2_cnnstem_upernet_10ep/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 922
+  },
+  {
+    "source": "outputs/experiments/E015_mit_b2_cnnpyr_upernet_10ep/config.json",
+    "copied": true,
+    "size_bytes": 985
+  },
+  {
+    "source": "outputs/experiments/E015_mit_b2_cnnpyr_upernet_10ep/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 920
+  },
+  {
+    "source": "outputs/experiments/E016_mit_b2_detail_upernet_10ep/config.json",
+    "copied": true,
+    "size_bytes": 985
+  },
+  {
+    "source": "outputs/experiments/E016_mit_b2_detail_upernet_10ep/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 920
+  },
+  {
+    "source": "outputs/experiments/E017_mit_b2_localconv_upernet_10ep/config.json",
+    "copied": true,
+    "size_bytes": 991
+  },
+  {
+    "source": "outputs/experiments/E017_mit_b2_localconv_upernet_10ep/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 926
+  },
+  {
+    "source": "outputs/experiments/E018_mit_b2_adaptive_rf_upernet_10ep/config.json",
+    "copied": true,
+    "size_bytes": 1018
+  },
+  {
+    "source": "outputs/experiments/E018_mit_b2_adaptive_rf_upernet_10ep/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 930
+  },
+  {
+    "source": "outputs/experiments/E019_mit_b2_frequency_upernet_10ep/config.json",
+    "copied": true,
+    "size_bytes": 1014
+  },
+  {
+    "source": "outputs/experiments/E019_mit_b2_frequency_upernet_10ep/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 926
+  },
+  {
+    "source": "outputs/experiments/E020_mit_b2_selective_pyramid_10ep/config.json",
+    "copied": true,
+    "size_bytes": 1014
+  },
+  {
+    "source": "outputs/experiments/E024_v7_control_upernet/ablation_init_report.json",
+    "copied": true,
+    "size_bytes": 266
+  },
+  {
+    "source": "outputs/experiments/E024_v7_control_upernet/config.json",
+    "copied": true,
+    "size_bytes": 1166
+  },
+  {
+    "source": "outputs/experiments/E024_v7_control_upernet/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 905
+  },
+  {
+    "source": "outputs/experiments/E024_v7_control_upernet/init_metrics.json",
+    "copied": true,
+    "size_bytes": 426
+  },
+  {
+    "source": "outputs/experiments/E025_v7_rf_adapter/ablation_init_report.json",
+    "copied": true,
+    "size_bytes": 947
+  },
+  {
+    "source": "outputs/experiments/E025_v7_rf_adapter/config.json",
+    "copied": true,
+    "size_bytes": 1167
+  },
+  {
+    "source": "outputs/experiments/E025_v7_rf_adapter/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 906
+  },
+  {
+    "source": "outputs/experiments/E025_v7_rf_adapter/init_metrics.json",
+    "copied": true,
+    "size_bytes": 432
+  },
+  {
+    "source": "outputs/experiments/E026_v7_frequency_adapter/ablation_init_report.json",
+    "copied": true,
+    "size_bytes": 668
+  },
+  {
+    "source": "outputs/experiments/E026_v7_frequency_adapter/config.json",
+    "copied": true,
+    "size_bytes": 1181
+  },
+  {
+    "source": "outputs/experiments/E026_v7_frequency_adapter/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 920
+  },
+  {
+    "source": "outputs/experiments/E026_v7_frequency_adapter/init_metrics.json",
+    "copied": true,
+    "size_bytes": 439
+  },
+  {
+    "source": "outputs/experiments/E027_v7_localglobal_adapter/ablation_init_report.json",
+    "copied": true,
+    "size_bytes": 628
+  },
+  {
+    "source": "outputs/experiments/E027_v7_localglobal_adapter/config.json",
+    "copied": true,
+    "size_bytes": 1185
+  },
+  {
+    "source": "outputs/experiments/E027_v7_localglobal_adapter/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 924
+  },
+  {
+    "source": "outputs/experiments/E027_v7_localglobal_adapter/init_metrics.json",
+    "copied": true,
+    "size_bytes": 441
+  },
+  {
+    "source": "outputs/experiments/E028_v71_control_upernet/config.json",
+    "copied": true,
+    "size_bytes": 1222
+  },
+  {
+    "source": "outputs/experiments/E028_v71_control_upernet/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 906
+  },
+  {
+    "source": "outputs/experiments/E028_v71_control_upernet/init_metrics.json",
+    "copied": true,
+    "size_bytes": 425
+  },
+  {
+    "source": "outputs/experiments/E029A_v71_widecontext_warm/ablation_init_report.json",
+    "copied": true,
+    "size_bytes": 1151
+  },
+  {
+    "source": "outputs/experiments/E029A_v71_widecontext_warm/config.json",
+    "copied": true,
+    "size_bytes": 1238
+  },
+  {
+    "source": "outputs/experiments/E029A_v71_widecontext_warm/init_metrics.json",
+    "copied": true,
+    "size_bytes": 442
+  },
+  {
+    "source": "outputs/experiments/E029_v71_widecontext/config.json",
+    "copied": true,
+    "size_bytes": 1236
+  },
+  {
+    "source": "outputs/experiments/E029_v71_widecontext/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 918
+  },
+  {
+    "source": "outputs/experiments/E029_v71_widecontext/init_metrics.json",
+    "copied": true,
+    "size_bytes": 443
+  },
+  {
+    "source": "outputs/experiments/E030A_v71_fadc_warm/ablation_init_report.json",
+    "copied": true,
+    "size_bytes": 1135
+  },
+  {
+    "source": "outputs/experiments/E030A_v71_fadc_warm/config.json",
+    "copied": true,
+    "size_bytes": 1229
+  },
+  {
+    "source": "outputs/experiments/E030A_v71_fadc_warm/init_metrics.json",
+    "copied": true,
+    "size_bytes": 439
+  },
+  {
+    "source": "outputs/experiments/E030_v71_fadc_lite/config.json",
+    "copied": true,
+    "size_bytes": 1225
+  },
+  {
+    "source": "outputs/experiments/E030_v71_fadc_lite/init_metrics.json",
+    "copied": true,
+    "size_bytes": 441
+  },
+  {
+    "source": "outputs/experiments/E032_v72_control_basic_ce/config.json",
+    "copied": true,
+    "size_bytes": 1293
+  },
+  {
+    "source": "outputs/experiments/E032_v72_control_basic_ce/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 907
+  },
+  {
+    "source": "outputs/experiments/E033_v72_multiscale_ce/config.json",
+    "copied": true,
+    "size_bytes": 1295
+  },
+  {
+    "source": "outputs/experiments/E033_v72_multiscale_ce/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 904
+  },
+  {
+    "source": "outputs/experiments/E034_v72_rare_basic_ce/config.json",
+    "copied": true,
+    "size_bytes": 1289
+  },
+  {
+    "source": "outputs/experiments/E034_v72_rare_basic_ce/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 904
+  },
+  {
+    "source": "outputs/experiments/E035_v72_multiscale_rare_ce/config.json",
+    "copied": true,
+    "size_bytes": 1299
+  },
+  {
+    "source": "outputs/experiments/E035_v72_multiscale_rare_ce/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 909
+  },
+  {
+    "source": "outputs/experiments/E036_v72_multiscale_ce_lovasz/config.json",
+    "copied": true,
+    "size_bytes": 1309
+  },
+  {
+    "source": "outputs/experiments/E036_v72_multiscale_ce_lovasz/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 911
+  },
+  {
+    "source": "outputs/experiments/E037_v72_multiscale_rare_ce_lovasz/config.json",
+    "copied": true,
+    "size_bytes": 1313
+  },
+  {
+    "source": "outputs/experiments/E037_v72_multiscale_rare_ce_lovasz/domain_eval.txt",
+    "copied": true,
+    "size_bytes": 916
+  },
+  {
+    "source": "outputs/experiments/E038_v73_rural_mixedforest/config.json",
+    "copied": true,
+    "size_bytes": 1498
+  },
+  {
+    "source": "outputs/experiments/E039_v73_bg_bce/config.json",
+    "copied": true,
+    "size_bytes": 1512
+  },
+  {
+    "source": "outputs/experiments/E040_v74_hier_bgfg/config.json",
+    "copied": true,
+    "size_bytes": 1520
+  },
+  {
+    "source": "outputs/experiments/E041_v74_forest_rescue/config.json",
+    "copied": true,
+    "size_bytes": 1533
+  },
+  {
+    "source": "outputs/experiments/E042_v76_hrda_lite/config.json",
+    "copied": true,
+    "size_bytes": 1525
+  },
+  {
+    "source": "outputs/experiments/E043_v77_hrda_daformer/config.json",
+    "copied": true,
+    "size_bytes": 1525
+  },
+  {
+    "source": "outputs/experiments/E044_v78_augdg_color/config.json",
+    "copied": true,
+    "size_bytes": 1517
+  },
+  {
+    "source": "outputs/experiments/E054_MTP_frozen_UPerNet/20260813_160432/vis_data/20260813_160432.json",
+    "copied": true,
+    "size_bytes": 744
+  },
+  {
+    "source": "outputs/experiments/E054_MTP_frozen_UPerNet/20260813_160432/vis_data/scalars.json",
+    "copied": true,
+    "size_bytes": 744
+  },
+  {
+    "source": "outputs/experiments/E057A_mtp_guided_mitb2/config.json",
+    "copied": true,
+    "size_bytes": 1503
+  },
+  {
+    "source": "outputs/experiments/E058_barren_first_curriculum/config.json",
+    "copied": true,
+    "size_bytes": 1525
+  },
+  {
+    "source": "outputs/experiments/E072_balance_only/config.json",
+    "copied": true,
+    "size_bytes": 1514
+  },
+  {
+    "source": "outputs/experiments/E072_balance_only/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7217
+  },
+  {
+    "source": "outputs/experiments/E072_balance_only/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 389
+  },
+  {
+    "source": "outputs/experiments/E073_fosmix_only_beta005/config.json",
+    "copied": true,
+    "size_bytes": 1521
+  },
+  {
+    "source": "outputs/experiments/E073_fosmix_only_beta005/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7203
+  },
+  {
+    "source": "outputs/experiments/E073_fosmix_only_beta005/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 402
+  },
+  {
+    "source": "outputs/experiments/E074_fosmix_only_mild/config.json",
+    "copied": true,
+    "size_bytes": 1518
+  },
+  {
+    "source": "outputs/experiments/E074_fosmix_only_mild/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7211
+  },
+  {
+    "source": "outputs/experiments/E074_fosmix_only_mild/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 402
+  },
+  {
+    "source": "outputs/experiments/E075_balance_fosmix_mild/config.json",
+    "copied": true,
+    "size_bytes": 1521
+  },
+  {
+    "source": "outputs/experiments/E075_balance_fosmix_mild/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7203
+  },
+  {
+    "source": "outputs/experiments/E075_balance_fosmix_mild/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 400
+  },
+  {
+    "source": "outputs/experiments/E076_mixstyle_only/config.json",
+    "copied": true,
+    "size_bytes": 1515
+  },
+  {
+    "source": "outputs/experiments/E076_mixstyle_only/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7197
+  },
+  {
+    "source": "outputs/experiments/E076_mixstyle_only/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 391
+  },
+  {
+    "source": "outputs/experiments/E077_balance_crossdomain_mixstyle/config.json",
+    "copied": true,
+    "size_bytes": 1530
+  },
+  {
+    "source": "outputs/experiments/E077_balance_crossdomain_mixstyle/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7211
+  },
+  {
+    "source": "outputs/experiments/E077_balance_crossdomain_mixstyle/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 419
+  },
+  {
+    "source": "outputs/experiments/E078_balance_crossdomain_classmix/config.json",
+    "copied": true,
+    "size_bytes": 1530
+  },
+  {
+    "source": "outputs/experiments/E078_balance_crossdomain_classmix/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7211
+  },
+  {
+    "source": "outputs/experiments/E078_balance_crossdomain_classmix/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 454
+  },
+  {
+    "source": "outputs/experiments/E079_balance_fosmix_classmix/config.json",
+    "copied": true,
+    "size_bytes": 1525
+  },
+  {
+    "source": "outputs/experiments/E079_balance_fosmix_classmix/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7210
+  },
+  {
+    "source": "outputs/experiments/E079_balance_fosmix_classmix/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 412
+  },
+  {
+    "source": "outputs/experiments/E079_balance_fosmix_classmix__previous_20260817_125315/config.json",
+    "copied": true,
+    "size_bytes": 1525
+  },
+  {
+    "source": "outputs/experiments/E079_balance_fosmix_classmix__previous_20260817_125315/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7216
+  },
+  {
+    "source": "outputs/experiments/E079_balance_fosmix_classmix__previous_20260817_125315/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 412
+  },
+  {
+    "source": "outputs/experiments/E080_mixstyle_stage1_only/config.json",
+    "copied": true,
+    "size_bytes": 1522
+  },
+  {
+    "source": "outputs/experiments/E080_mixstyle_stage1_only/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7194
+  },
+  {
+    "source": "outputs/experiments/E080_mixstyle_stage1_only/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 391
+  },
+  {
+    "source": "outputs/experiments/E081_mixstyle_stage2_only/config.json",
+    "copied": true,
+    "size_bytes": 1522
+  },
+  {
+    "source": "outputs/experiments/E081_mixstyle_stage2_only/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7195
+  },
+  {
+    "source": "outputs/experiments/E081_mixstyle_stage2_only/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 390
+  },
+  {
+    "source": "outputs/experiments/E082_mixstyle_p030/config.json",
+    "copied": true,
+    "size_bytes": 1515
+  },
+  {
+    "source": "outputs/experiments/E082_mixstyle_p030/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7213
+  },
+  {
+    "source": "outputs/experiments/E082_mixstyle_p030/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 388
+  },
+  {
+    "source": "outputs/experiments/E083_mixstyle_p070/config.json",
+    "copied": true,
+    "size_bytes": 1515
+  },
+  {
+    "source": "outputs/experiments/E083_mixstyle_p070/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7196
+  },
+  {
+    "source": "outputs/experiments/E083_mixstyle_p070/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 385
+  },
+  {
+    "source": "outputs/experiments/E084_mixstyle_semantic_consistency/config.json",
+    "copied": true,
+    "size_bytes": 1531
+  },
+  {
+    "source": "outputs/experiments/E084_mixstyle_semantic_consistency/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7207
+  },
+  {
+    "source": "outputs/experiments/E084_mixstyle_semantic_consistency/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 415
+  },
+  {
+    "source": "outputs/experiments/E085_mixstyle_prototype_consistency/config.json",
+    "copied": true,
+    "size_bytes": 1532
+  },
+  {
+    "source": "outputs/experiments/E085_mixstyle_prototype_consistency/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7208
+  },
+  {
+    "source": "outputs/experiments/E085_mixstyle_prototype_consistency/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 420
+  },
+  {
+    "source": "outputs/experiments/E086_e037_hardpixel_ce_lovasz/config.json",
+    "copied": true,
+    "size_bytes": 1526
+  },
+  {
+    "source": "outputs/experiments/E086_e037_hardpixel_ce_lovasz/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7212
+  },
+  {
+    "source": "outputs/experiments/E086_e037_hardpixel_ce_lovasz/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 426
+  },
+  {
+    "source": "outputs/experiments/E087_e037_boundary_aux/config.json",
+    "copied": true,
+    "size_bytes": 1519
+  },
+  {
+    "source": "outputs/experiments/E087_e037_boundary_aux/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7207
+  },
+  {
+    "source": "outputs/experiments/E087_e037_boundary_aux/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 416
+  },
+  {
+    "source": "outputs/experiments/E088_e037_ocr_lite/config.json",
+    "copied": true,
+    "size_bytes": 1515
+  },
+  {
+    "source": "outputs/experiments/E088_e037_ocr_lite/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7203
+  },
+  {
+    "source": "outputs/experiments/E088_e037_ocr_lite/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 413
+  },
+  {
+    "source": "outputs/experiments/E089_e037_crop768_accum2/config.json",
+    "copied": true,
+    "size_bytes": 1521
+  },
+  {
+    "source": "outputs/experiments/E089_e037_crop768_accum2/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7219
+  },
+  {
+    "source": "outputs/experiments/E089_e037_crop768_accum2/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 436
+  },
+  {
+    "source": "outputs/experiments/E090_e037_blv_lite/config.json",
+    "copied": true,
+    "size_bytes": 1515
+  },
+  {
+    "source": "outputs/experiments/E090_e037_blv_lite/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7208
+  },
+  {
+    "source": "outputs/experiments/E090_e037_blv_lite/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 432
+  },
+  {
+    "source": "outputs/experiments/E090_e037_blv_lite__previous_20260819_135410/config.json",
+    "copied": true,
+    "size_bytes": 1515
+  },
+  {
+    "source": "outputs/experiments/E090_e037_blv_lite__previous_20260819_135410/domain_history.csv",
+    "copied": true,
+    "size_bytes": 4426
+  },
+  {
+    "source": "outputs/experiments/E096_e037_blv_repo_sigma4/blv_stats.json",
+    "copied": true,
+    "size_bytes": 1198
+  },
+  {
+    "source": "outputs/experiments/E096_e037_blv_repo_sigma4/config.json",
+    "copied": true,
+    "size_bytes": 1522
+  },
+  {
+    "source": "outputs/experiments/E096_e037_blv_repo_sigma4/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7227
+  },
+  {
+    "source": "outputs/experiments/E096_e037_blv_repo_sigma4/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 437
+  },
+  {
+    "source": "outputs/experiments/E097_e037_blv_paper_sigma6/blv_stats.json",
+    "copied": true,
+    "size_bytes": 1198
+  },
+  {
+    "source": "outputs/experiments/E097_e037_blv_paper_sigma6/config.json",
+    "copied": true,
+    "size_bytes": 1523
+  },
+  {
+    "source": "outputs/experiments/E097_e037_blv_paper_sigma6/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7242
+  },
+  {
+    "source": "outputs/experiments/E097_e037_blv_paper_sigma6/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 417
+  },
+  {
+    "source": "outputs/experiments/E098_e090lite_trainval_final/E098_final_metadata.json",
+    "copied": true,
+    "size_bytes": 732
+  },
+  {
+    "source": "outputs/experiments/E098_e090lite_trainval_final/config.json",
+    "copied": true,
+    "size_bytes": 1519
+  },
+  {
+    "source": "outputs/experiments/E098_e090lite_trainval_final/e090_lite_trainval_stats.json",
+    "copied": true,
+    "size_bytes": 589
+  },
+  {
+    "source": "outputs/experiments/E098_e090lite_trainval_final__previous_20260819_162354/config.json",
+    "copied": true,
+    "size_bytes": 1519
+  },
+  {
+    "source": "outputs/experiments/E098_e090lite_trainval_final__previous_20260819_162354/e090_lite_trainval_stats.json",
+    "copied": true,
+    "size_bytes": 589
+  },
+  {
+    "source": "outputs/experiments/E098_e090lite_trainval_final__previous_20260819_163704/config.json",
+    "copied": true,
+    "size_bytes": 1519
+  },
+  {
+    "source": "outputs/experiments/E098_e090lite_trainval_final__previous_20260819_163704/e090_lite_trainval_stats.json",
+    "copied": true,
+    "size_bytes": 589
+  },
+  {
+    "source": "outputs/experiments/E099_e090lite_valonly_1epoch/E099_metadata.json",
+    "copied": true,
+    "size_bytes": 368
+  },
+  {
+    "source": "outputs/experiments/E099_e090lite_valonly_1epoch/config.json",
+    "copied": true,
+    "size_bytes": 1519
+  },
+  {
+    "source": "outputs/experiments/E099_e090lite_valonly_1epoch/e099_val_stats.json",
+    "copied": true,
+    "size_bytes": 615
+  },
+  {
+    "source": "outputs/experiments/E100_e090lite_classaware_spatial_combined/config.json",
+    "copied": true,
+    "size_bytes": 1538
+  },
+  {
+    "source": "outputs/experiments/E100_e090lite_classaware_spatial_combined/domain_history.csv",
+    "copied": true,
+    "size_bytes": 4972
+  },
+  {
+    "source": "outputs/experiments/E105_e090lite_mlp_fusion/config.json",
+    "copied": true,
+    "size_bytes": 1521
+  },
+  {
+    "source": "outputs/experiments/E105_e090lite_mlp_fusion/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7223
+  },
+  {
+    "source": "outputs/experiments/E105_e090lite_mlp_fusion/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 421
+  },
+  {
+    "source": "outputs/experiments/E106_e090lite_progressive_fusion/config.json",
+    "copied": true,
+    "size_bytes": 1529
+  },
+  {
+    "source": "outputs/experiments/E106_e090lite_progressive_fusion/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7206
+  },
+  {
+    "source": "outputs/experiments/E106_e090lite_progressive_fusion/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 436
+  },
+  {
+    "source": "outputs/experiments/E107_e090lite_global_local_progressive/config.json",
+    "copied": true,
+    "size_bytes": 1535
+  },
+  {
+    "source": "outputs/experiments/E107_e090lite_global_local_progressive/domain_history.csv",
+    "copied": true,
+    "size_bytes": 7204
+  },
+  {
+    "source": "outputs/experiments/E107_e090lite_global_local_progressive/sweep_summary.json",
+    "copied": true,
+    "size_bytes": 443
+  },
+  {
+    "source": "outputs/experiments/E111_e090lite_100ep_noval/config.json",
+    "copied": true,
+    "size_bytes": 1521
+  }
+]

@@ -1,0 +1,594 @@
+{
+  "log_files_copied": 98,
+  "total_log_bytes": 175039352,
+  "files": [
+    {
+      "source": "E037_TTA_VAL.log",
+      "destination": "logs/raw/E037_TTA_VAL.log",
+      "size_bytes": 209387,
+      "sha256": "977448e7e782c91d33a12c44dbea811c57e3b6fa48a6ff20d31cb879b8dc410d"
+    },
+    {
+      "source": "E057A_mtp_guided_mitb2.log",
+      "destination": "logs/raw/E057A_mtp_guided_mitb2.log",
+      "size_bytes": 3082590,
+      "sha256": "8c3e5cd2acb01f1ac273319a6dec5e6cbea33519d11947cde2075e41cbccd086"
+    },
+    {
+      "source": "E058_barren_first_curriculum.log",
+      "destination": "logs/raw/E058_barren_first_curriculum.log",
+      "size_bytes": 2626192,
+      "sha256": "4fccd221f38bca9be2ca52bfee7269b541e46cfa27b3c2f01feb899dad37736d"
+    },
+    {
+      "source": "E072_sweep.log",
+      "destination": "logs/raw/E072_sweep.log",
+      "size_bytes": 3084457,
+      "sha256": "1f72dba08b38b827deb601ef47fd99316de462c73495768b09585b92941f7f04"
+    },
+    {
+      "source": "E073_sweep.log",
+      "destination": "logs/raw/E073_sweep.log",
+      "size_bytes": 3084713,
+      "sha256": "3ff04a1ff024d55a6da65ccc72719cabe012d15706bc0b1d426495d72d818a3e"
+    },
+    {
+      "source": "E074_sweep.log",
+      "destination": "logs/raw/E074_sweep.log",
+      "size_bytes": 3084441,
+      "sha256": "f260a12f694ae2e688497e79dba7d0244d4d0191c2c07c951a8db739bf2a22e6"
+    },
+    {
+      "source": "E075_sweep.log",
+      "destination": "logs/raw/E075_sweep.log",
+      "size_bytes": 3084122,
+      "sha256": "6685674394e49f18e48ac92c4cc48669bf3db08e077aac54ed0bc5bdb9fac135"
+    },
+    {
+      "source": "E076_sweep.log",
+      "destination": "logs/raw/E076_sweep.log",
+      "size_bytes": 3085229,
+      "sha256": "018baa91d91bf2075c0336a9b5d182792663fb6b2d625c2ec9f8ce11a72bda89"
+    },
+    {
+      "source": "E076_test_prediction.log",
+      "destination": "logs/raw/E076_test_prediction.log",
+      "size_bytes": 226395,
+      "sha256": "8fa887dafe04b737fbcb490daa8c36a98cb151f96ac8a835d03d41e9642ed9e5"
+    },
+    {
+      "source": "E077_sweep.log",
+      "destination": "logs/raw/E077_sweep.log",
+      "size_bytes": 3085279,
+      "sha256": "b9d1240afe4af7b5a06d5f7ece0a946f8986fa3cca6847c22a2864a622e9909f"
+    },
+    {
+      "source": "E078_sweep.log",
+      "destination": "logs/raw/E078_sweep.log",
+      "size_bytes": 3084886,
+      "sha256": "b94c14e121fed7a8524ddb02ae1affabbb381015deebb4e63e536f7b922675b4"
+    },
+    {
+      "source": "E079_sweep.log",
+      "destination": "logs/raw/E079_sweep.log",
+      "size_bytes": 3085212,
+      "sha256": "58f9cf389eb7cf7504e16a91806d6cabe4aa094cc46cfb4f719e9d8259febb65"
+    },
+    {
+      "source": "E080_sweep.log",
+      "destination": "logs/raw/E080_sweep.log",
+      "size_bytes": 3084990,
+      "sha256": "019e55dd8dc52bd20e82ce0ca8cdfbfd0cca94cb87b5ac109a8c22f8ab68c29f"
+    },
+    {
+      "source": "E081_sweep.log",
+      "destination": "logs/raw/E081_sweep.log",
+      "size_bytes": 3085057,
+      "sha256": "63414e7c3de229ee97d8768a21928fcdc24859108f4262d7604e6bcd00ac984f"
+    },
+    {
+      "source": "E082_sweep.log",
+      "destination": "logs/raw/E082_sweep.log",
+      "size_bytes": 3085068,
+      "sha256": "e01446974de8a8222e1448c3f5589f40dba0ffec955167e8943a5920da5d2f28"
+    },
+    {
+      "source": "E083_sweep.log",
+      "destination": "logs/raw/E083_sweep.log",
+      "size_bytes": 3085119,
+      "sha256": "448cfac410c9f65ecf83be299867b0e690e8f155599359688445c01fa9a45f2e"
+    },
+    {
+      "source": "E084_sweep.log",
+      "destination": "logs/raw/E084_sweep.log",
+      "size_bytes": 2987503,
+      "sha256": "127bd1b6ed6623d359656cbc2ed9b8256df1f98b0d0768c08bd54db7b9046e5c"
+    },
+    {
+      "source": "E085_sweep.log",
+      "destination": "logs/raw/E085_sweep.log",
+      "size_bytes": 2979818,
+      "sha256": "84035d9883e845d1a1dd0eb8b91e1fc5e6ac5301d276d2c38005ec8467eaa8c8"
+    },
+    {
+      "source": "E086_e037_next.log",
+      "destination": "logs/raw/E086_e037_next.log",
+      "size_bytes": 3084399,
+      "sha256": "311fb15ae4b784c6930695b43ac09ec68c84cc0646098bf8e4f007d85f36d80d"
+    },
+    {
+      "source": "E087_e037_next.log",
+      "destination": "logs/raw/E087_e037_next.log",
+      "size_bytes": 2956477,
+      "sha256": "59d30507c24a679ae72c5522514713c2eab3937d8b0f146a1e619417a7167976"
+    },
+    {
+      "source": "E088_e037_next.log",
+      "destination": "logs/raw/E088_e037_next.log",
+      "size_bytes": 3084385,
+      "sha256": "3ab4d29ff0431365cb15c068c33b531cb36ba8663b98dd8ba906397a73f1d362"
+    },
+    {
+      "source": "E089_e037_next.log",
+      "destination": "logs/raw/E089_e037_next.log",
+      "size_bytes": 4770425,
+      "sha256": "a1afe97fb111c7877b01d0cea9e42f6738a69bd74f6aa07dcd10d06a516e3716"
+    },
+    {
+      "source": "E090_e037_next.log",
+      "destination": "logs/raw/E090_e037_next.log",
+      "size_bytes": 3086057,
+      "sha256": "0ec66a75432102bf2e357b5e1c395a5e804b521fdbef551f1dc3d4aff9cc529d"
+    },
+    {
+      "source": "E090_e037_next__previous_20260819_135408.log",
+      "destination": "logs/raw/E090_e037_next__previous_20260819_135408.log",
+      "size_bytes": 1956108,
+      "sha256": "10b0bd76bc18bddb89d63e2198691f16eefa5304e8e8e39879d407cb3913e965"
+    },
+    {
+      "source": "E090_lite_direct_test.log",
+      "destination": "logs/raw/E090_lite_direct_test.log",
+      "size_bytes": 41627,
+      "sha256": "5e397bebff82f43af314c1660549198d439570d0a5c338dea6f3b36bd13ea049"
+    },
+    {
+      "source": "E096_blv_repo_sigma4.log",
+      "destination": "logs/raw/E096_blv_repo_sigma4.log",
+      "size_bytes": 3118702,
+      "sha256": "ccf22aa7463d2ee07139091706ed406832419e6ada77c7b2d700dd0a758c6bbb"
+    },
+    {
+      "source": "E097_blv_paper_sigma6.log",
+      "destination": "logs/raw/E097_blv_paper_sigma6.log",
+      "size_bytes": 3087201,
+      "sha256": "a16dd3f9ded74e16c481216a70a299ff13d4d8940ef8a8f66008717370c5e601"
+    },
+    {
+      "source": "E098_test.log",
+      "destination": "logs/raw/E098_test.log",
+      "size_bytes": 58708,
+      "sha256": "dd2ae51cc0db1678f95059f1a639c6718046c87a126a179d54583e9c55328368"
+    },
+    {
+      "source": "E098_trainval.log",
+      "destination": "logs/raw/E098_trainval.log",
+      "size_bytes": 773077,
+      "sha256": "6e5a1e4228b6e4bf4db10058cc999416886c0dced010e553a2a9069614a2cefc"
+    },
+    {
+      "source": "E098_trainval__previous_20260819_162354.log",
+      "destination": "logs/raw/E098_trainval__previous_20260819_162354.log",
+      "size_bytes": 365934,
+      "sha256": "af5b43ac5f27f4e8896453ae4f2e4a3b3dd4f652860dab32f6679b2185ed4c42"
+    },
+    {
+      "source": "E098_trainval__previous_20260819_163704.log",
+      "destination": "logs/raw/E098_trainval__previous_20260819_163704.log",
+      "size_bytes": 689511,
+      "sha256": "04e08c627ae4d6207661c12ad2db7b91847bea13c58820d1b79ef78a94bec961"
+    },
+    {
+      "source": "E099_test.log",
+      "destination": "logs/raw/E099_test.log",
+      "size_bytes": 44121,
+      "sha256": "8d65727d3ee2231559a3774b6b3ed0a0c558fb01228c90bd40203f3ed9376a87"
+    },
+    {
+      "source": "E099_val1_train.log",
+      "destination": "logs/raw/E099_val1_train.log",
+      "size_bytes": 83209,
+      "sha256": "45f053bd8b770ef5a72636e0d14616df8bc09d7d0a41645f71f4f44f822335a2"
+    },
+    {
+      "source": "E100_combined_spatial.log",
+      "destination": "logs/raw/E100_combined_spatial.log",
+      "size_bytes": 1418417,
+      "sha256": "f155940e9371909859a6e6ec0f43c8d00bf96a60aa90b46b53e1e286da3812a4"
+    },
+    {
+      "source": "E105_decoder.log",
+      "destination": "logs/raw/E105_decoder.log",
+      "size_bytes": 2304461,
+      "sha256": "c51fdb98cec8643896b5d6f0ba484ed0bc3512cf65c7ca9564ce472795c208dd"
+    },
+    {
+      "source": "E106_decoder.log",
+      "destination": "logs/raw/E106_decoder.log",
+      "size_bytes": 2279158,
+      "sha256": "9deeee28a19ff0228d1540719a7006a90515505d4ae4ac78cc34aa4603828ce8"
+    },
+    {
+      "source": "E107_decoder.log",
+      "destination": "logs/raw/E107_decoder.log",
+      "size_bytes": 2304609,
+      "sha256": "04e7a15f62a666ea97a76a248c271a20959360e6979097b06cd1382b875d2e5b"
+    },
+    {
+      "source": "E111_resume2.log",
+      "destination": "logs/raw/E111_resume2.log",
+      "size_bytes": 236206,
+      "sha256": "3cecfeccbafbd9aea50394a3d35c50022fb36a140d3c77c64ba30955e540399f"
+    },
+    {
+      "source": "E111_resume2_final_val.log",
+      "destination": "logs/raw/E111_resume2_final_val.log",
+      "size_bytes": 41817,
+      "sha256": "8877c9d1913a84fae5c507b5180ad7a6b82ff0f3e15ecc6633bdbe6a546b630b"
+    },
+    {
+      "source": "E111_training.log",
+      "destination": "logs/raw/E111_training.log",
+      "size_bytes": 4680415,
+      "sha256": "07e3880389930d1c2660d9e7d20f229ed7aafa8317948103ee30d5c539f48909"
+    },
+    {
+      "source": "E111_verify.log",
+      "destination": "logs/raw/E111_verify.log",
+      "size_bytes": 1428,
+      "sha256": "4f1ab187448b7beaea744645eb07076dcff1fa19a815d9ec9333fb27d4cb25da"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/E037_TTA_VAL.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/E037_TTA_VAL.log",
+      "size_bytes": 209387,
+      "sha256": "977448e7e782c91d33a12c44dbea811c57e3b6fa48a6ff20d31cb879b8dc410d"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/E086_e037_next.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/E086_e037_next.log",
+      "size_bytes": 3084399,
+      "sha256": "311fb15ae4b784c6930695b43ac09ec68c84cc0646098bf8e4f007d85f36d80d"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/E087_e037_next.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/E087_e037_next.log",
+      "size_bytes": 2956477,
+      "sha256": "59d30507c24a679ae72c5522514713c2eab3937d8b0f146a1e619417a7167976"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/E088_e037_next.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/E088_e037_next.log",
+      "size_bytes": 3084385,
+      "sha256": "3ab4d29ff0431365cb15c068c33b531cb36ba8663b98dd8ba906397a73f1d362"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/v74_E037_fliptta.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/v74_E037_fliptta.log",
+      "size_bytes": 56104,
+      "sha256": "8a8d0a16e6b4d89bd131f3b471a4e6a4895b215ec4e8c677e467f664bce358ef"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/v74_E037_single.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/v74_E037_single.log",
+      "size_bytes": 56105,
+      "sha256": "44a399a85715bc9623d5fc15d261710b01fe4107e4acd30210263ab5c0e46e85"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/v75_E037_ms3.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/v75_E037_ms3.log",
+      "size_bytes": 211209,
+      "sha256": "17a106812c6e199478ba80534c846979aca713a8655972cfa0714a027a0003f2"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/v75_E037_ms6_fliptta.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E037/v75_E037_ms6_fliptta.log",
+      "size_bytes": 34599,
+      "sha256": "62df624510ee40ac342b29b0c17c36e5c712ea70120b7a077a1e987589205de1"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E042/test_E037_E042_5050.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E042/test_E037_E042_5050.log",
+      "size_bytes": 220606,
+      "sha256": "f558dc72128b9b0e8e7ee021e87796eda8c7963695ce4ebde116ed9dedd625d7"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E042/v78_ensemble_E037_E042_val.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E042/v78_ensemble_E037_E042_val.log",
+      "size_bytes": 206692,
+      "sha256": "f154d0a8065b6ef0e91745fcc7fc0e71cce3f8bf6f08a9fdd3fb286e6e92d667"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E076/E076_sweep.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E076/E076_sweep.log",
+      "size_bytes": 3085229,
+      "sha256": "018baa91d91bf2075c0336a9b5d182792663fb6b2d625c2ec9f8ce11a72bda89"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E076/E076_test_prediction.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E076/E076_test_prediction.log",
+      "size_bytes": 226395,
+      "sha256": "8fa887dafe04b737fbcb490daa8c36a98cb151f96ac8a835d03d41e9642ed9e5"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E090/E090_e037_next.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E090/E090_e037_next.log",
+      "size_bytes": 3086057,
+      "sha256": "0ec66a75432102bf2e357b5e1c395a5e804b521fdbef551f1dc3d4aff9cc529d"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E090/E090_e037_next__previous_20260819_135408.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E090/E090_e037_next__previous_20260819_135408.log",
+      "size_bytes": 1956108,
+      "sha256": "10b0bd76bc18bddb89d63e2198691f16eefa5304e8e8e39879d407cb3913e965"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E090/E090_lite_direct_test.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E090/E090_lite_direct_test.log",
+      "size_bytes": 41627,
+      "sha256": "5e397bebff82f43af314c1660549198d439570d0a5c338dea6f3b36bd13ea049"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E096/E096_blv_repo_sigma4.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E096/E096_blv_repo_sigma4.log",
+      "size_bytes": 3118702,
+      "sha256": "ccf22aa7463d2ee07139091706ed406832419e6ada77c7b2d700dd0a758c6bbb"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E098/E098_test.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E098/E098_test.log",
+      "size_bytes": 58708,
+      "sha256": "dd2ae51cc0db1678f95059f1a639c6718046c87a126a179d54583e9c55328368"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E098/E098_trainval.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E098/E098_trainval.log",
+      "size_bytes": 773077,
+      "sha256": "6e5a1e4228b6e4bf4db10058cc999416886c0dced010e553a2a9069614a2cefc"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E098/E098_trainval__previous_20260819_162354.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E098/E098_trainval__previous_20260819_162354.log",
+      "size_bytes": 365934,
+      "sha256": "af5b43ac5f27f4e8896453ae4f2e4a3b3dd4f652860dab32f6679b2185ed4c42"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E098/E098_trainval__previous_20260819_163704.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E098/E098_trainval__previous_20260819_163704.log",
+      "size_bytes": 689511,
+      "sha256": "04e08c627ae4d6207661c12ad2db7b91847bea13c58820d1b79ef78a94bec961"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E099/E099_test.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E099/E099_test.log",
+      "size_bytes": 44121,
+      "sha256": "8d65727d3ee2231559a3774b6b3ed0a0c558fb01228c90bd40203f3ed9376a87"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E099/E099_val1_train.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E099/E099_val1_train.log",
+      "size_bytes": 83209,
+      "sha256": "45f053bd8b770ef5a72636e0d14616df8bc09d7d0a41645f71f4f44f822335a2"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E100/E100_combined_spatial.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E100/E100_combined_spatial.log",
+      "size_bytes": 1418417,
+      "sha256": "f155940e9371909859a6e6ec0f43c8d00bf96a60aa90b46b53e1e286da3812a4"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E105/E105_decoder.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E105/E105_decoder.log",
+      "size_bytes": 2304461,
+      "sha256": "c51fdb98cec8643896b5d6f0ba484ed0bc3512cf65c7ca9564ce472795c208dd"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E106/E106_decoder.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E106/E106_decoder.log",
+      "size_bytes": 2279158,
+      "sha256": "9deeee28a19ff0228d1540719a7006a90515505d4ae4ac78cc34aa4603828ce8"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E107/E107_decoder.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E107/E107_decoder.log",
+      "size_bytes": 2304609,
+      "sha256": "04e7a15f62a666ea97a76a248c271a20959360e6979097b06cd1382b875d2e5b"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E111/E111_resume2.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E111/E111_resume2.log",
+      "size_bytes": 236206,
+      "sha256": "3cecfeccbafbd9aea50394a3d35c50022fb36a140d3c77c64ba30955e540399f"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E111/E111_resume2_final_val.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E111/E111_resume2_final_val.log",
+      "size_bytes": 41817,
+      "sha256": "8877c9d1913a84fae5c507b5180ad7a6b82ff0f3e15ecc6633bdbe6a546b630b"
+    },
+    {
+      "source": "_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E111/E111_verify.log",
+      "destination": "logs/raw/_github_release_lean/LoveDA-Segmentation-Research/logs/key_experiments/E111/E111_verify.log",
+      "size_bytes": 1428,
+      "sha256": "4f1ab187448b7beaea744645eb07076dcff1fa19a815d9ec9333fb27d4cb25da"
+    },
+    {
+      "source": "outputs/experiments/E054_MTP_frozen_UPerNet/20260813_155559/20260813_155559.log",
+      "destination": "logs/raw/outputs/experiments/E054_MTP_frozen_UPerNet/20260813_155559/20260813_155559.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "outputs/experiments/E054_MTP_frozen_UPerNet/20260813_155643/20260813_155643.log",
+      "destination": "logs/raw/outputs/experiments/E054_MTP_frozen_UPerNet/20260813_155643/20260813_155643.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "outputs/experiments/E054_MTP_frozen_UPerNet/20260813_155723/20260813_155723.log",
+      "destination": "logs/raw/outputs/experiments/E054_MTP_frozen_UPerNet/20260813_155723/20260813_155723.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "outputs/experiments/E054_MTP_frozen_UPerNet/20260813_160006/20260813_160006.log",
+      "destination": "logs/raw/outputs/experiments/E054_MTP_frozen_UPerNet/20260813_160006/20260813_160006.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "outputs/experiments/E054_MTP_frozen_UPerNet/20260813_160248/20260813_160248.log",
+      "destination": "logs/raw/outputs/experiments/E054_MTP_frozen_UPerNet/20260813_160248/20260813_160248.log",
+      "size_bytes": 67554,
+      "sha256": "0449f799024521dd04522cd81858bc463b98a088dc22220425a483a9c9297c5f"
+    },
+    {
+      "source": "outputs/experiments/E054_MTP_frozen_UPerNet/20260813_160432/20260813_160432.log",
+      "destination": "logs/raw/outputs/experiments/E054_MTP_frozen_UPerNet/20260813_160432/20260813_160432.log",
+      "size_bytes": 67554,
+      "sha256": "d369305ed2922364f1e0194ae0fe17dbde089a0ead8a4da784354a054ba17601"
+    },
+    {
+      "source": "outputs/experiments/E055_MTP_DA_LoRA/20260813_175712/20260813_175712.log",
+      "destination": "logs/raw/outputs/experiments/E055_MTP_DA_LoRA/20260813_175712/20260813_175712.log",
+      "size_bytes": 74587,
+      "sha256": "b0c2b1076b1e5a2837d16463a5ff648eb5745caa7753fc0c9a544f4170691820"
+    },
+    {
+      "source": "test_E037_E042_5050.log",
+      "destination": "logs/raw/test_E037_E042_5050.log",
+      "size_bytes": 220606,
+      "sha256": "f558dc72128b9b0e8e7ee021e87796eda8c7963695ce4ebde116ed9dedd625d7"
+    },
+    {
+      "source": "v71_literature.log",
+      "destination": "logs/raw/v71_literature.log",
+      "size_bytes": 4239792,
+      "sha256": "a2355cea1700dd1059dbc1b238bb6f7f3db454245a3fc51c1d0900be20787093"
+    },
+    {
+      "source": "v72_training.log",
+      "destination": "logs/raw/v72_training.log",
+      "size_bytes": 18830026,
+      "sha256": "32898c25efb0a4fcb0a6c098143abb1eb7f83a52402e3927f8c525cb06f01580"
+    },
+    {
+      "source": "v73_E038_training.log",
+      "destination": "logs/raw/v73_E038_training.log",
+      "size_bytes": 6790,
+      "sha256": "b88c109427a14a621888f1e4cb06d12f060e83cbb7b14834b4f25007679940ec"
+    },
+    {
+      "source": "v73_E039_training.log",
+      "destination": "logs/raw/v73_E039_training.log",
+      "size_bytes": 3083749,
+      "sha256": "81890bd8b6dde5c160946f6256c7c7df81db6fe2b98e0e9866dbed6b12be72d1"
+    },
+    {
+      "source": "v73_compare_rural_forest.log",
+      "destination": "logs/raw/v73_compare_rural_forest.log",
+      "size_bytes": 4105,
+      "sha256": "d458a9d1b3c08112e809921e7305239ff42d993ebce4ff62e6f9addd61c0b2a5"
+    },
+    {
+      "source": "v73_compare_rural_forest_E038.log",
+      "destination": "logs/raw/v73_compare_rural_forest_E038.log",
+      "size_bytes": 5430,
+      "sha256": "d08adbcb1b8680ab46805310502b44c86c9cd50ec1fccc92371bf9df485263de"
+    },
+    {
+      "source": "v73_compare_rural_forest_E039.log",
+      "destination": "logs/raw/v73_compare_rural_forest_E039.log",
+      "size_bytes": 6733,
+      "sha256": "eb1af859585a7651d4e34ea48d12edc160630cc9ae4eb0a4cde9b7cab4f8cc58"
+    },
+    {
+      "source": "v73_rural_forest_diag.log",
+      "destination": "logs/raw/v73_rural_forest_diag.log",
+      "size_bytes": 5072,
+      "sha256": "1d2e092f9fd7f6d18b165b831b63a17d3af2dfffb89931d64c1178dcf716aebd"
+    },
+    {
+      "source": "v73_verify_mixedforest_sampling.log",
+      "destination": "logs/raw/v73_verify_mixedforest_sampling.log",
+      "size_bytes": 896,
+      "sha256": "6a9a2022788bc9a1a1cfece2e6d0d0a7029f08946ed935f6683145bc61038539"
+    },
+    {
+      "source": "v74_E037_fliptta.log",
+      "destination": "logs/raw/v74_E037_fliptta.log",
+      "size_bytes": 56104,
+      "sha256": "8a8d0a16e6b4d89bd131f3b471a4e6a4895b215ec4e8c677e467f664bce358ef"
+    },
+    {
+      "source": "v74_E037_single.log",
+      "destination": "logs/raw/v74_E037_single.log",
+      "size_bytes": 56105,
+      "sha256": "44a399a85715bc9623d5fc15d261710b01fe4107e4acd30210263ab5c0e46e85"
+    },
+    {
+      "source": "v74_E040_training.log",
+      "destination": "logs/raw/v74_E040_training.log",
+      "size_bytes": 3083280,
+      "sha256": "76fd791c5a9fe34bb624dc9c7b21dcd92293ae619f8ed31728ef425af2df1bdb"
+    },
+    {
+      "source": "v74_E041_training.log",
+      "destination": "logs/raw/v74_E041_training.log",
+      "size_bytes": 3082847,
+      "sha256": "27101875594a25980f48cbb4a31b6ea590ba52abd2c7d4662ebd13479992ee57"
+    },
+    {
+      "source": "v75_E037_ms3.log",
+      "destination": "logs/raw/v75_E037_ms3.log",
+      "size_bytes": 211209,
+      "sha256": "17a106812c6e199478ba80534c846979aca713a8655972cfa0714a027a0003f2"
+    },
+    {
+      "source": "v75_E037_ms6_fliptta.log",
+      "destination": "logs/raw/v75_E037_ms6_fliptta.log",
+      "size_bytes": 34599,
+      "sha256": "62df624510ee40ac342b29b0c17c36e5c712ea70120b7a077a1e987589205de1"
+    },
+    {
+      "source": "v76_E042_hrda_lite.log",
+      "destination": "logs/raw/v76_E042_hrda_lite.log",
+      "size_bytes": 6759997,
+      "sha256": "b4620b268a4edd4483de7448408f994c3c23a372c15ca35dfdd895f9232b8c9c"
+    },
+    {
+      "source": "v77_E043_hrda_daformer.log",
+      "destination": "logs/raw/v77_E043_hrda_daformer.log",
+      "size_bytes": 1160003,
+      "sha256": "93e738ada775dbc6c542fe38fa76d06307857bf9c857af2f97d8c08bac3c9258"
+    },
+    {
+      "source": "v78_E044_augdg_color.log",
+      "destination": "logs/raw/v78_E044_augdg_color.log",
+      "size_bytes": 3083079,
+      "sha256": "b7cad664352060d8005cfa7a5d8743a158c021ab33d0ac84921755952067091b"
+    },
+    {
+      "source": "v78_ensemble_E037_E042_val.log",
+      "destination": "logs/raw/v78_ensemble_E037_E042_val.log",
+      "size_bytes": 206692,
+      "sha256": "f154d0a8065b6ef0e91745fcc7fc0e71cce3f8bf6f08a9fdd3fb286e6e92d667"
+    },
+    {
+      "source": "v7_strict.log",
+      "destination": "logs/raw/v7_strict.log",
+      "size_bytes": 8860896,
+      "sha256": "89c65420aa6801c562573411d4c6b37b472d9b8effdb0e6c910193671d3f158c"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+
+==============================================================================
+Train / Rural
+images = 1366
+valid pixels = 1,391,118,168
+==============================================================================
+
+Class pixel distribution:
+background   pixels= 351,704,076 share=25.2821% images=1332/1366 ( 97.51%)
+building     pixels=  36,891,628 share= 2.6519% images= 927/1366 ( 67.86%)
+road         pixels=  27,053,972 share= 1.9448% images= 880/1366 ( 64.42%)
+water        pixels= 119,674,656 share= 8.6028% images=1203/1366 ( 88.07%)
+barren       pixels=  45,460,577 share= 3.2679% images= 512/1366 ( 37.48%)
+forest       pixels= 317,735,062 share=22.8403% images=1032/1366 ( 75.55%)
+agriculture  pixels= 492,598,197 share=35.4102% images=1005/1366 ( 73.57%)
+
+Forest per-image valid-pixel ratio:
+p00 = 0.000000
+p25 = 0.000513
+p50 = 0.070850
+p75 = 0.389988
+p90 = 0.737189
+p95 = 0.915929
+p99 = 0.997585
+p100 = 1.000000
+
+Top 15 images by forest coverage:
+100.0000%  718.png
+100.0000%  69.png
+100.0000%  537.png
+100.0000%  449.png
+100.0000%  250.png
+100.0000%  228.png
+100.0000%  221.png
+100.0000%  1354.png
+100.0000%  1253.png
+100.0000%  1201.png
+100.0000%  1166.png
+100.0000%  1023.png
+100.0000%  1003.png
+ 99.7844%  1318.png
+ 99.7445%  1061.png
+
+==============================================================================
+Train / Urban
+images = 1156
+valid pixels = 1,153,758,445
+==============================================================================
+
+Class pixel distribution:
+background   pixels= 559,004,254 share=48.4507% images=1131/1156 ( 97.84%)
+building     pixels= 244,601,897 share=21.2004% images=1094/1156 ( 94.64%)
+road         pixels= 107,065,867 share= 9.2797% images=1015/1156 ( 87.80%)
+water        pixels=  43,055,087 share= 3.7317% images= 406/1156 ( 35.12%)
+barren       pixels=  87,288,280 share= 7.5656% images= 586/1156 ( 50.69%)
+forest       pixels=  91,339,922 share= 7.9167% images= 826/1156 ( 71.45%)
+agriculture  pixels=  21,403,138 share= 1.8551% images= 187/1156 ( 16.18%)
+
+Forest per-image valid-pixel ratio:
+p00 = 0.000000
+p25 = 0.000000
+p50 = 0.026146
+p75 = 0.100846
+p90 = 0.229726
+p95 = 0.333030
+p99 = 0.628959
+p100 = 0.778555
+
+Top 15 images by forest coverage:
+ 77.8555%  1794.png
+ 76.2342%  1431.png
+ 72.5407%  1856.png
+ 70.6177%  2085.png
+ 70.6045%  2502.png
+ 70.1509%  2403.png
+ 68.8339%  2001.png
+ 68.7638%  2273.png
+ 68.5793%  2286.png
+ 68.4819%  2113.png
+ 64.9359%  2067.png
+ 63.2909%  1730.png
+ 62.5726%  2316.png
+ 62.4260%  1892.png
+ 62.1923%  2424.png
+
+==============================================================================
+Val / Rural
+images = 992
+valid pixels = 1,021,941,370
+==============================================================================
+
+Class pixel distribution:
+background   pixels= 438,119,047 share=42.8713% images= 983/ 992 ( 99.09%)
+building     pixels=  37,637,836 share= 3.6830% images= 521/ 992 ( 52.52%)
+road         pixels=  26,633,535 share= 2.6062% images= 678/ 992 ( 68.35%)
+water        pixels= 118,973,404 share=11.6419% images= 848/ 992 ( 85.48%)
+barren       pixels=  37,210,586 share= 3.6412% images= 383/ 992 ( 38.61%)
+forest       pixels=  51,420,183 share= 5.0316% images= 604/ 992 ( 60.89%)
+agriculture  pixels= 311,946,779 share=30.5249% images= 748/ 992 ( 75.40%)
+
+Forest per-image valid-pixel ratio:
+p00 = 0.000000
+p25 = 0.000000
+p50 = 0.011187
+p75 = 0.062761
+p90 = 0.145712
+p95 = 0.222392
+p99 = 0.444939
+p100 = 0.688887
+
+Top 15 images by forest coverage:
+ 68.8887%  2551.png
+ 67.7363%  3247.png
+ 64.9179%  3260.png
+ 61.6397%  3412.png
+ 60.4365%  3290.png
+ 58.5498%  2999.png
+ 57.6683%  3288.png
+ 57.2969%  3251.png
+ 54.3657%  3372.png
+ 46.5358%  3315.png
+ 44.2920%  3133.png
+ 43.3698%  2861.png
+ 41.0247%  2681.png
+ 39.6444%  3384.png
+ 39.3511%  3474.png
+
+==============================================================================
+Val / Urban
+images = 677
+valid pixels = 682,354,901
+==============================================================================
+
+Class pixel distribution:
+background   pixels= 177,131,635 share=25.9589% images= 665/ 677 ( 98.23%)
+building     pixels=  85,167,955 share=12.4815% images= 568/ 677 ( 83.90%)
+road         pixels=  52,956,965 share= 7.7609% images= 581/ 677 ( 85.82%)
+water        pixels=  80,594,412 share=11.8112% images= 567/ 677 ( 83.75%)
+barren       pixels=  37,172,547 share= 5.4477% images= 338/ 677 ( 49.93%)
+forest       pixels=  74,195,464 share=10.8734% images= 590/ 677 ( 87.15%)
+agriculture  pixels= 175,135,923 share=25.6664% images= 533/ 677 ( 78.73%)
+
+Forest per-image valid-pixel ratio:
+p00 = 0.000000
+p25 = 0.022133
+p50 = 0.075229
+p75 = 0.155663
+p90 = 0.260468
+p95 = 0.333334
+p99 = 0.575009
+p100 = 0.866948
+
+Top 15 images by forest coverage:
+ 86.6948%  3546.png
+ 69.0596%  3787.png
+ 68.7405%  3821.png
+ 68.5598%  4170.png
+ 66.3413%  4119.png
+ 58.7318%  4165.png
+ 58.6561%  3895.png
+ 57.1362%  3547.png
+ 57.1242%  3951.png
+ 56.1207%  3970.png
+ 54.8423%  4001.png
+ 54.6951%  3648.png
+ 50.4173%  3726.png
+ 47.6864%  3635.png
+ 45.6707%  4082.png
+
+V7.3 rural-forest data diagnosis finished.

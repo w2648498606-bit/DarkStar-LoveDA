@@ -1,0 +1,12 @@
+{
+  "run_name": "E072_balance_only",
+  "method": "Domain-balanced sampling only",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.4861935630727413,
+  "best_dg_overall_miou": 0.535152270126175,
+  "best_dg_urban_miou": 0.5843908234544981,
+  "best_dg_rural_miou": 0.4372348560193077,
+  "best_dg_worst_miou": 0.4372348560193077,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.535152270126175
+}

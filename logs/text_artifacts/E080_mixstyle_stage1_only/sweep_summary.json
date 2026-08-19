@@ -1,0 +1,12 @@
+{
+  "run_name": "E080_mixstyle_stage1_only",
+  "method": "MixStyle stage1 only",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.48687046430033554,
+  "best_dg_overall_miou": 0.5350033079589115,
+  "best_dg_urban_miou": 0.5825714564786443,
+  "best_dg_rural_miou": 0.4387376206417596,
+  "best_dg_worst_miou": 0.4387376206417596,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.5350033079589115
+}

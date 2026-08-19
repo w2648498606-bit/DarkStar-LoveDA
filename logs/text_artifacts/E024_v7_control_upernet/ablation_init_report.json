@@ -1,0 +1,9 @@
+{
+  "checkpoint": "outputs/experiments/E009_mit_b2_upernet_10ep/checkpoints/best_miou.pth",
+  "source_model": "mit_b2_upernet",
+  "loaded_base_tensors": 429,
+  "new_variant_tensors": 0,
+  "new_keys": [],
+  "source_epoch": 6,
+  "source_best_miou": 0.524680114160583
+}

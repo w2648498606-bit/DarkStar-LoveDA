@@ -1,0 +1,159 @@
+============================================================================
+run       : E038_v73_rural_mixedforest
+model     : MiT-B2 + UPerNet-style PPM/FPN (mit_b2_upernet)
+device    : cuda
+crop      : 512, min_valid_ratio=0.05, retries=10
+batch     : train=8, val=8
+optimizer : adamw, base_lr=0.0001, wd=0.0001, backbone_mult=0.2, new_mult=1
+scheduler : cosine
+loss      : ce_lovasz, lovasz_weight=0.5
+augment   : multiscale, scales=(0.75, 1.0, 1.25, 1.5)
+rare crop : True, prob=0.4, classes=['barren', 'forest'], min_ratio=0.02
+mixedforest: True, rural_prob=0.2, range=[0.005,0.25], target=0.05, retries=30
+AMP       : True
+pretrained: True
+strict v7 : True, model_seed=3407, data_seed=20260809, train_seed=271828
+============================================================================
+train samples=2522, val samples=1669
+encoder init: loaded 364 tensors from outputs/experiments/E007_segformer_b2_20ep/checkpoints/best_miou.pth
+parameters: total=33.12M, trainable=33.12M
+LR groups : base=0.0001, backbone=2e-05
+
+Epoch 1/12 | 258.3s | lr[base=1.000e-04, backbone=2.000e-05] | peak_vram=6.42GB
+train: loss=0.9212, mIoU=0.6172, pixel_acc=0.7601 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.3561, mIoU=0.5085, pixel_acc=0.6913 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5411
+  building     IoU=0.6172
+  road         IoU=0.5399
+  water        IoU=0.7100
+  barren       IoU=0.3067
+  forest       IoU=0.3567
+  agriculture  IoU=0.4879
+New best mIoU=0.5085; saved outputs/experiments/E038_v73_rural_mixedforest/checkpoints/best_miou.pth
+
+Epoch 2/12 | 254.0s | lr[base=9.830e-05, backbone=1.966e-05] | peak_vram=6.42GB
+train: loss=0.8200, mIoU=0.6328, pixel_acc=0.7732 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.1783, mIoU=0.5131, pixel_acc=0.6955 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5430
+  building     IoU=0.6131
+  road         IoU=0.5104
+  water        IoU=0.7029
+  barren       IoU=0.3615
+  forest       IoU=0.3553
+  agriculture  IoU=0.5053
+New best mIoU=0.5131; saved outputs/experiments/E038_v73_rural_mixedforest/checkpoints/best_miou.pth
+
+Epoch 3/12 | 254.0s | lr[base=9.330e-05, backbone=1.866e-05] | peak_vram=6.42GB
+train: loss=0.7717, mIoU=0.6500, pixel_acc=0.7871 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.4042, mIoU=0.5206, pixel_acc=0.6950 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5399
+  building     IoU=0.6288
+  road         IoU=0.5337
+  water        IoU=0.7120
+  barren       IoU=0.3689
+  forest       IoU=0.3760
+  agriculture  IoU=0.4853
+New best mIoU=0.5206; saved outputs/experiments/E038_v73_rural_mixedforest/checkpoints/best_miou.pth
+
+Epoch 4/12 | 252.5s | lr[base=8.536e-05, backbone=1.707e-05] | peak_vram=6.42GB
+train: loss=0.7620, mIoU=0.6555, pixel_acc=0.7877 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.0949, mIoU=0.5310, pixel_acc=0.7166 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5601
+  building     IoU=0.6143
+  road         IoU=0.5594
+  water        IoU=0.7036
+  barren       IoU=0.3374
+  forest       IoU=0.3650
+  agriculture  IoU=0.5773
+New best mIoU=0.5310; saved outputs/experiments/E038_v73_rural_mixedforest/checkpoints/best_miou.pth
+
+Epoch 5/12 | 251.3s | lr[base=7.500e-05, backbone=1.500e-05] | peak_vram=6.42GB
+train: loss=0.7339, mIoU=0.6664, pixel_acc=0.7966 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.1345, mIoU=0.5324, pixel_acc=0.7141 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5551
+  building     IoU=0.6540
+  road         IoU=0.5668
+  water        IoU=0.7148
+  barren       IoU=0.3311
+  forest       IoU=0.3529
+  agriculture  IoU=0.5519
+New best mIoU=0.5324; saved outputs/experiments/E038_v73_rural_mixedforest/checkpoints/best_miou.pth
+
+Epoch 6/12 | 256.0s | lr[base=6.294e-05, backbone=1.259e-05] | peak_vram=6.42GB
+train: loss=0.7255, mIoU=0.6707, pixel_acc=0.7998 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.3108, mIoU=0.5211, pixel_acc=0.7059 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5470
+  building     IoU=0.6303
+  road         IoU=0.5583
+  water        IoU=0.6917
+  barren       IoU=0.3018
+  forest       IoU=0.3798
+  agriculture  IoU=0.5387
+
+Epoch 7/12 | 253.2s | lr[base=5.000e-05, backbone=1.000e-05] | peak_vram=6.42GB
+train: loss=0.7217, mIoU=0.6689, pixel_acc=0.7999 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.3115, mIoU=0.5274, pixel_acc=0.7074 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5516
+  building     IoU=0.6182
+  road         IoU=0.5534
+  water        IoU=0.7139
+  barren       IoU=0.3359
+  forest       IoU=0.3912
+  agriculture  IoU=0.5275
+
+Epoch 8/12 | 254.5s | lr[base=3.706e-05, backbone=7.412e-06] | peak_vram=6.42GB
+train: loss=0.6938, mIoU=0.6836, pixel_acc=0.8097 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.3129, mIoU=0.5182, pixel_acc=0.7020 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5455
+  building     IoU=0.6277
+  road         IoU=0.5514
+  water        IoU=0.7163
+  barren       IoU=0.2893
+  forest       IoU=0.3794
+  agriculture  IoU=0.5178
+
+Epoch 9/12 | 254.2s | lr[base=2.500e-05, backbone=5.000e-06] | peak_vram=6.42GB
+train: loss=0.6854, mIoU=0.6858, pixel_acc=0.8098 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.4651, mIoU=0.5153, pixel_acc=0.6999 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5428
+  building     IoU=0.6327
+  road         IoU=0.5512
+  water        IoU=0.7152
+  barren       IoU=0.2756
+  forest       IoU=0.3778
+  agriculture  IoU=0.5118
+
+Epoch 10/12 | 254.1s | lr[base=1.464e-05, backbone=2.929e-06] | peak_vram=6.42GB
+train: loss=0.6790, mIoU=0.6861, pixel_acc=0.8123 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.4151, mIoU=0.5207, pixel_acc=0.7035 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5489
+  building     IoU=0.6271
+  road         IoU=0.5560
+  water        IoU=0.7147
+  barren       IoU=0.3099
+  forest       IoU=0.3695
+  agriculture  IoU=0.5187
+
+Epoch 11/12 | 255.0s | lr[base=6.699e-06, backbone=1.340e-06] | peak_vram=6.42GB
+train: loss=0.6749, mIoU=0.6906, pixel_acc=0.8136 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.3084, mIoU=0.5222, pixel_acc=0.7075 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5526
+  building     IoU=0.6250
+  road         IoU=0.5578
+  water        IoU=0.7165
+  barren       IoU=0.3001
+  forest       IoU=0.3714
+  agriculture  IoU=0.5324
+
+Epoch 12/12 | 253.4s | lr[base=1.704e-06, backbone=3.407e-07] | peak_vram=6.42GB
+train: loss=0.6686, mIoU=0.6932, pixel_acc=0.8150 | skipped(ignore=0, nonfinite=0)
+val  : loss=1.2878, mIoU=0.5219, pixel_acc=0.7078 | skipped(ignore=0, nonfinite=0)
+  background   IoU=0.5504
+  building     IoU=0.6373
+  road         IoU=0.5565
+  water        IoU=0.7185
+  barren       IoU=0.2827
+  forest       IoU=0.3742
+  agriculture  IoU=0.5340
+Training finished. Best val mIoU: 0.532375
+history: outputs/experiments/E038_v73_rural_mixedforest/history.csv

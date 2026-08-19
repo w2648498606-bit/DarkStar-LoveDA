@@ -1,0 +1,38 @@
+model     : mit_b2_uper_ocr
+checkpoint: outputs/experiments/E012_mit_b2_uper_ocr_10ep/checkpoints/best_miou.pth
+split     : Val
+TTA       : False
+loss      : 1.2262
+
+[overall]
+mIoU      : 0.517583
+pixel_acc : 0.708248
+  background   IoU=0.555432
+  building     IoU=0.619155
+  road         IoU=0.535436
+  water        IoU=0.714693
+  barren       IoU=0.281952
+  forest       IoU=0.375848
+  agriculture  IoU=0.540567
+
+[Rural]
+mIoU      : 0.400658
+pixel_acc : 0.700746
+  background   IoU=0.591187
+  building     IoU=0.498077
+  road         IoU=0.333948
+  water        IoU=0.698779
+  barren       IoU=0.144883
+  forest       IoU=0.021693
+  agriculture  IoU=0.516042
+
+[Urban]
+mIoU      : 0.577543
+pixel_acc : 0.719484
+  background   IoU=0.465850
+  building     IoU=0.666237
+  road         IoU=0.627197
+  water        IoU=0.738277
+  barren       IoU=0.403264
+  forest       IoU=0.559512
+  agriculture  IoU=0.582463

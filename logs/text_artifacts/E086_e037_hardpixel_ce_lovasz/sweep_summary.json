@@ -1,0 +1,12 @@
+{
+  "run_name": "E086_e037_hardpixel_ce_lovasz",
+  "method": "E037 + conservative hard-pixel CE blend + 0.5 Lovasz",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.4877070393884081,
+  "best_dg_overall_miou": 0.5353312370622416,
+  "best_dg_urban_miou": 0.5843488045310475,
+  "best_dg_rural_miou": 0.4400828417145746,
+  "best_dg_worst_miou": 0.4400828417145746,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.5353312370622416
+}

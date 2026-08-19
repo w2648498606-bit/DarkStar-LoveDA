@@ -1,0 +1,12 @@
+{
+  "run_name": "E079_balance_fosmix_classmix",
+  "method": "Domain balance + mild FOSMix + ClassMix",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.4786934470845906,
+  "best_dg_overall_miou": 0.522975757329006,
+  "best_dg_urban_miou": 0.5697479169795153,
+  "best_dg_rural_miou": 0.43441113684017524,
+  "best_dg_worst_miou": 0.43441113684017524,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.522975757329006
+}

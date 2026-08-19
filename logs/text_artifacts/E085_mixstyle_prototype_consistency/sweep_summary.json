@@ -1,0 +1,12 @@
+{
+  "run_name": "E085_mixstyle_prototype_consistency",
+  "method": "MixStyle + class prototype consistency",
+  "best_dg_epoch": 4,
+  "best_dg_score": 0.4851315947729304,
+  "best_dg_overall_miou": 0.5323659674487574,
+  "best_dg_urban_miou": 0.5803902503764444,
+  "best_dg_rural_miou": 0.43789722209710336,
+  "best_dg_worst_miou": 0.43789722209710336,
+  "best_overall_epoch": 4,
+  "best_overall_miou": 0.5323659674487574
+}

@@ -1,0 +1,12 @@
+{
+  "run_name": "E077_balance_crossdomain_mixstyle",
+  "method": "Domain balance + cross-domain MixStyle",
+  "best_dg_epoch": 5,
+  "best_dg_score": 0.48666684853660563,
+  "best_dg_overall_miou": 0.5356200600331171,
+  "best_dg_urban_miou": 0.5847174090650649,
+  "best_dg_rural_miou": 0.43771363704009414,
+  "best_dg_worst_miou": 0.43771363704009414,
+  "best_overall_epoch": 5,
+  "best_overall_miou": 0.5356200600331171
+}
