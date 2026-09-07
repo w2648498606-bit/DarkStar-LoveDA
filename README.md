@@ -23,6 +23,8 @@
 - **Rare-class sampling：** 提高少数类别出现在有效训练裁剪中的频率
 - **Lightweight class-aware training：** 仅在训练阶段加入类别频率相关的轻量扰动，推理阶段仍使用原始模型输出，不增加额外推理分支
 
+以上内容是展示主线，并非完整损失函数与超参数清单；完整冻结配置仍保存在 E090 实验记录中。
+
 最终训练配置入口为 [`train_e090.py`](train_e090.py)，主体流程复用 [`train.py`](train.py) 中的统一训练框架。
 
 ## 3. Main Results
