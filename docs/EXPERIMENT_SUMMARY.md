@@ -6,11 +6,14 @@ Historical experiment source wrappers are intentionally omitted from this lean s
 Experiment directories indexed: **74**
 History files copied: **70**
 
-## Ranking by local/independent Val mIoU
+`EXPERIMENT_SUMMARY.csv` is retained as a raw experiment inventory. It does not encode protocol eligibility and includes diagnostic, non-independent, and no-Val runs; use the categorized sections below for model comparison.
+
+## Independent validation results
+
+Only runs whose validation samples were not used for gradient updates are listed here. These results are eligible for model comparison under the main protocol.
 
 | ID | Run | Best Val mIoU | Best epoch | Last epoch |
 |---|---|---:|---:|---:|
-| E098 | `E098_e090lite_trainval_final__previous_20260819_163704` | 0.575365 | 1 | 1 |
 | E090 | `E090_e037_blv_lite` | 0.545243 | 5 | 12 |
 | E042 | `E042_v76_hrda_lite` | 0.545099 | 5 | 12 |
 | E090 | `E090_e037_blv_lite__previous_20260819_135410` | 0.545018 | 5 | 7 |
@@ -38,7 +41,6 @@ History files copied: **70**
 | E074 | `E074_fosmix_only_mild` | 0.532849 | 5 | 12 |
 | E038 | `E038_v73_rural_mixedforest` | 0.532375 | 5 | 12 |
 | E085 | `E085_mixstyle_prototype_consistency` | 0.532366 | 4 | 12 |
-| E057 | `E057A_mtp_guided_mitb2` | 0.531731 | 5 | 12 |
 | E035 | `E035_v72_multiscale_rare_ce` | 0.530609 | 5 | 12 |
 | E083 | `E083_mixstyle_p070` | 0.530538 | 5 | 12 |
 | E040 | `E040_v74_hier_bgfg` | 0.530239 | 5 | 12 |
@@ -77,9 +79,36 @@ History files copied: **70**
 | E010 | `E010_mit_b2_ocr_fpn_10ep` | 0.509618 | 2 | 10 |
 | E006 | `E006_segformer_b2_3ep` | 0.492730 | 2 | 3 |
 | E005 | `E005_segformer_b1_3ep` | 0.472244 | 3 | 3 |
-| E098 | `E098_e090lite_trainval_final` | 0.000000 | 3 | 3 |
-| E099 | `E099_e090lite_valonly_1epoch` | 0.000000 | 1 | 1 |
-| E111 | `E111_e090lite_100ep_noval` | 0.000000 | 43 | 43 |
 
-> Val ranking is not equivalent to Hidden-Test ranking.
-> Current own Hidden-Test best in the project record: E090 = 0.525061.
+Best independent validation result: **E090 = 0.545243** at epoch 5.
+
+## Diagnostic / non-independent runs
+
+The runs below are retained for protocol auditing and diagnosis. They are excluded from independent validation ranking and model selection.
+
+| ID | Run | Recorded value | Protocol status |
+|---|---|---:|---|
+| E098 | `E098_e090lite_trainval_final__previous_20260819_163704` | 0.575365 | Train+Val fine-tuning; validation data participated in training. Val is no longer independent; excluded from model selection. |
+| E098 | `E098_e090lite_trainval_final` | — | Train+Val final training; fixed final epoch rather than Val-based checkpoint selection. |
+| E099 | `E099_e090lite_valonly_1epoch` | — | Val-only diagnostic fine-tuning; not an independent validation run. |
+| E111 | `E111_e090lite_100ep_noval` | — | Long-budget run without comparable validation selection. |
+
+E098's metadata records 2522 Train samples plus 1669 Val samples, for 4191 training samples in total. See [`logs/text_artifacts/E098_e090lite_trainval_final/E098_final_metadata.json`](../logs/text_artifacts/E098_e090lite_trainval_final/E098_final_metadata.json).
+
+## Third-party checkpoint / initialization runs
+
+Third-party checkpoint reproduction and third-party-derived initialization are reported separately from the main project ranking:
+
+| ID | Run | Independent Val mIoU | Boundary |
+|---|---|---:|---|
+| E057 | `E057A_mtp_guided_mitb2` | 0.531731 | Project training run initialized from a third-party-derived encoder checkpoint; reported separately for provenance clarity. |
+
+The existing release audit also labels E053 as a third-party checkpoint reproduction/inference. No corresponding E053 history or configuration artifact is present in the public package, so no E053 metric is ranked or independently verified here. See [`THIRD_PARTY_AUDIT.md`](THIRD_PARTY_AUDIT.md) and the corresponding configuration records for provenance details.
+
+## Hidden Test result
+
+The current project record reports **E090 = 0.525061** on Hidden Test. The submission was generated from E090's epoch-5 best checkpoint by the direct single-model prediction path, using clean logits without TTA or ensembling. See [`predict_e090_lite_direct_test.py`](../predict_e090_lite_direct_test.py) and [`logs/raw/E090_lite_direct_test.log`](../logs/raw/E090_lite_direct_test.log).
+
+The public package contains the prediction-generation log, but it does not contain an official leaderboard export or score screenshot. Therefore, `0.525061` is presented as a project record rather than a score independently verifiable from the repository alone.
+
+> Independent Val ranking is not equivalent to Hidden Test ranking. Hidden Test was not used to sweep every experiment.
